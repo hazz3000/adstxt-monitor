@@ -19,6 +19,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1111
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1127
     }
   ],
   "amc.com/app-ads.txt": [
@@ -41,6 +114,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1022
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1040
     }
   ],
   "bbca.com/ads.txt": [
@@ -63,6 +209,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1111
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1127
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -85,6 +304,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1022
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1040
     }
   ],
   "ifc.com/ads.txt": [
@@ -107,6 +399,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1111
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1127
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -129,6 +494,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1022
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1040
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -151,6 +589,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1111
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1127
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -171,6 +682,11 @@
     },
     {
       "date": "2026-04-07 19:25 UTC",
+      "status": "unchanged",
+      "lines": 19
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
       "status": "unchanged",
       "lines": 19
     }
@@ -195,6 +711,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1111
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1127
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -217,6 +806,79 @@
       "date": "2026-04-07 19:25 UTC",
       "status": "unchanged",
       "lines": 1022
+    },
+    {
+      "date": "2026-04-07 21:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, d1a215d9eb5aee9e",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "oxiem.com, 7d3ac7564a, DIRECT, b7aba0bfd04aa6b6",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "connatix.com, 101557, DIRECT, 2af98acdee0e81ed",
+          "section": "#MyCode"
+        },
+        {
+          "line": "pubmatic.com, 166226, RESELLER, 5d62403b186f2ace",
+          "section": "#MyCode"
+        },
+        {
+          "line": "freewheel.tv, 535072-r-524565, RESELLER",
+          "section": "#MyCode"
+        },
+        {
+          "line": "appnexus.com, 17444, RESELLER, f5ab79cb980f11d1",
+          "section": "#MyCode"
+        },
+        {
+          "line": "themediagrid.com, PCE1BO, RESELLER, 35d5010d7789b49d",
+          "section": "#MyCode"
+        },
+        {
+          "line": "loopme.com, 11186, RESELLER, 6c8d5f95897a5a3b",
+          "section": "#MyCode"
+        },
+        {
+          "line": "videoheroes.tv, 212796, DIRECT, 064bc410192443d8",
+          "section": "#Xapads"
+        },
+        {
+          "line": "video.unrulymedia.com, 170071695, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "freewheel.tv, 534963-r-524565, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "lkqd.net, 1100060074, RESELLER, 59c49fa9598a0117",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [
+        {
+          "line": "conversantmedia.com, 100718, RESELLER, 03113cd04947736d",
+          "section": "#Xapads"
+        },
+        {
+          "line": "safex.tv, 5078, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        },
+        {
+          "line": "media.net, 8CU406385, RESELLER",
+          "section": "#Xapads"
+        }
+      ],
+      "lines": 1040
     }
   ]
 }
