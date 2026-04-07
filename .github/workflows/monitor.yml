@@ -35,12 +35,13 @@ jobs:
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
         run: python monitor.py
 
-      - name: Commit updated files
+      - name: Commit and push updated files
         run: |
           git config user.name  "ads.txt Monitor"
           git config user.email "monitor@github-actions"
           git add snapshots.json change_log.json adstxt_changes.xlsx index.html
           git diff --cached --quiet || git commit -m "chore: update snapshots $(date -u +'%Y-%m-%d')"
+          git pull --rebase origin main
           git push
 
       - name: Upload Pages artifact
