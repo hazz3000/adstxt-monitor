@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ads.txt Monitor</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+  body { font-family: Arial, sans-serif; background: #f4f6f9; color: #1a1a2e; font-size: 14px; line-height: 1.5 }
+  header { background: #1F3864; color: #fff; padding: 24px 32px }
+  header h1 { font-size: 22px; font-weight: 600; margin-bottom: 4px }
+  header p { color: #BDD7EE; font-size: 13px }
+  .stats { display: flex; gap: 16px; padding: 20px 32px; background: #fff; border-bottom: 1px solid #e0e0e0; flex-wrap: wrap }
+  .stat { background: #f4f6f9; border-radius: 8px; padding: 12px 20px; min-width: 140px }
+  .stat-val { font-size: 24px; font-weight: 700; color: #1F3864 }
+  .stat-lbl { font-size: 12px; color: #666; margin-top: 2px }
+  main { max-width: 960px; margin: 28px auto; padding: 0 20px 60px }
+  .partner { background: #fff; border-radius: 10px; border: 1px solid #e0e0e0; margin-bottom: 24px; overflow: hidden }
+  .partner h2 { font-size: 16px; font-weight: 600; padding: 16px 20px; background: #f0f4fa; border-bottom: 1px solid #e0e0e0; color: #1F3864 }
+  .file-block { border-bottom: 1px solid #f0f0f0 }
+  .file-block:last-child { border-bottom: none }
+  .file-block summary { display: flex; align-items: center; gap: 10px; padding: 13px 20px; cursor: pointer; list-style: none; user-select: none }
+  .file-block summary:hover { background: #fafbfc }
+  .file-name { font-family: monospace; font-size: 13px; flex: 1; color: #333 }
+  .badge { font-size: 11px; padding: 2px 10px; border-radius: 20px; font-weight: 600 }
+  .badge.changed { background: #FCE4D6; color: #843C0C }
+  .badge.ok { background: #f0f0f0; color: #666 }
+  .badge.error { background: #FFF2CC; color: #7B6000 }
+  .badge.new { background: #E2EFDA; color: #375623 }
+  .count { font-size: 11px; color: #999; margin-left: 4px }
+  .timeline { padding: 0 20px 16px }
+  .entry { margin-top: 12px; border-radius: 6px; padding: 10px 14px; border-left: 3px solid #ddd }
+  .entry.changed { border-left-color: #E24B4A; background: #fff9f9 }
+  .entry.ok { border-left-color: #ccc; background: #fafafa }
+  .entry.error { border-left-color: #f0ad4e; background: #fffdf0 }
+  .entry.new { border-left-color: #1D9E75; background: #f6fffa }
+  .entry-date { font-size: 12px; color: #999; margin-bottom: 3px }
+  .entry-meta { font-size: 13px; color: #555 }
+  .diff { margin-top: 8px; border-radius: 4px; overflow: hidden; font-family: monospace; font-size: 12px }
+  .line { padding: 2px 8px; white-space: pre-wrap; word-break: break-all }
+  .line.add { background: #E2EFDA; color: #375623 }
+  .line.del { background: #FCE4D6; color: #843C0C }
+  .line.muted { background: #f5f5f5; color: #999 }
+  details[open] summary { background: #f7f9fc }
+</style>
+</head>
+<body>
+<header>
+  <h1>ads.txt Monitor</h1>
+  <p>Last updated: 2026-04-07 18:39 UTC &nbsp;·&nbsp; Tracking 10 files across 5 partners</p>
+</header>
+<div class="stats">
+  <div class="stat"><div class="stat-val">5</div><div class="stat-lbl">Partners</div></div>
+  <div class="stat"><div class="stat-val">10</div><div class="stat-lbl">Files monitored</div></div>
+  <div class="stat"><div class="stat-val">0</div><div class="stat-lbl">Total changes detected</div></div>
+</div>
+<main>
+        <section class="partner">
+          <h2>AMC Networks</h2>
+          
+            <details class="file-block" >
+              <summary><span class="file-name">amc.com/ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1111 lines</div></div></div>
+            </details>
+            <details class="file-block" >
+              <summary><span class="file-name">amc.com/app-ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1022 lines</div></div></div>
+            </details>
+        </section>
+        <section class="partner">
+          <h2>BBC America</h2>
+          
+            <details class="file-block" >
+              <summary><span class="file-name">bbca.com/ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1111 lines</div></div></div>
+            </details>
+            <details class="file-block" >
+              <summary><span class="file-name">bbca.com/app-ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1022 lines</div></div></div>
+            </details>
+        </section>
+        <section class="partner">
+          <h2>IFC</h2>
+          
+            <details class="file-block" >
+              <summary><span class="file-name">ifc.com/ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1111 lines</div></div></div>
+            </details>
+            <details class="file-block" >
+              <summary><span class="file-name">ifc.com/app-ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1022 lines</div></div></div>
+            </details>
+        </section>
+        <section class="partner">
+          <h2>Sundance TV</h2>
+          
+            <details class="file-block" >
+              <summary><span class="file-name">sundancetv.com/ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1111 lines</div></div></div>
+            </details>
+            <details class="file-block" >
+              <summary><span class="file-name">sundancetv.com/app-ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 19 lines</div></div></div>
+            </details>
+        </section>
+        <section class="partner">
+          <h2>WE tv</h2>
+          
+            <details class="file-block" >
+              <summary><span class="file-name">wetv.com/ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1111 lines</div></div></div>
+            </details>
+            <details class="file-block" >
+              <summary><span class="file-name">wetv.com/app-ads.txt</span><span class="badge ok">Unchanged</span></summary>
+              <div class="timeline"><div class="entry ok"><div class="entry-date">2026-04-07 18:39 UTC</div><div class="entry-meta">No changes &nbsp;·&nbsp; 1022 lines</div></div></div>
+            </details>
+        </section></main>
+</body>
+</html>
