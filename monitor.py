@@ -20,11 +20,21 @@ FILES = [
     "https://wetv.com/app-ads.txt",
 ]
 
-SNAPSHOTS_FILE = "snapshots.json"
-EXCEL_FILE = "adstxt_changes.xlsx"
-GMAIL_USER = os.environ["GMAIL_USER"]
+PARTNERS = {
+    "amc.com":        "AMC Networks",
+    "bbca.com":       "BBC America",
+    "ifc.com":        "IFC",
+    "sundancetv.com": "Sundance TV",
+    "wetv.com":       "WE tv",
+}
+
+SNAPSHOTS_FILE  = "snapshots.json"
+CHANGELOG_FILE  = "change_log.json"
+EXCEL_FILE      = "adstxt_changes.xlsx"
+HTML_FILE       = "index.html"
+GMAIL_USER      = os.environ["GMAIL_USER"]
 GMAIL_APP_PASSWORD = os.environ["GMAIL_APP_PASSWORD"]
-NOTIFY_EMAIL = os.environ["NOTIFY_EMAIL"]
+NOTIFY_EMAIL    = os.environ["NOTIFY_EMAIL"]
 
 HEADER_FILL = PatternFill("solid", start_color="1F3864")
 CHANGED_FILL = PatternFill("solid", start_color="FCE4D6")
@@ -55,6 +65,18 @@ def save_snapshots(snapshots):
         json.dump(snapshots, f, indent=2)
 
 
+def load_changelog():
+    if os.path.exists(CHANGELOG_FILE):
+        with open(CHANGELOG_FILE) as f:
+            return json.load(f)
+    return {}
+
+
+def save_changelog(changelog):
+    with open(CHANGELOG_FILE, "w") as f:
+        json.dump(changelog, f, indent=2)
+
+
 def diff_lines(old, new):
     old_lines = old.splitlines() if old else []
     new_lines = new.splitlines() if new else []
@@ -66,6 +88,14 @@ def diff_lines(old, new):
 
 def short(url):
     return url.replace("https://", "")
+
+
+def domain(url):
+    return url.replace("https://", "").split("/")[0]
+
+
+def partner_name(url):
+    return PARTNERS.get(domain(url), domain(url))
 
 
 def style_header(ws, row, cols):
@@ -89,8 +119,8 @@ def update_excel(results, snapshots, now_str):
 
     if "Change Log" not in wb.sheetnames:
         ws_log = wb.create_sheet("Change Log", 0)
-        ws_log.append(["Timestamp", "File", "Status", "Lines Added", "Lines Removed", "Added Lines", "Removed Lines"])
-        style_header(ws_log, 1, 7)
+        ws_log.append(["Timestamp", "Partner", "File", "Status", "Lines Added", "Lines Removed", "Added Lines", "Removed Lines"])
+        style_header(ws_log, 1, 8)
         ws_log.row_dimensions[1].height = 20
     else:
         ws_log = wb["Change Log"]
@@ -105,40 +135,40 @@ def update_excel(results, snapshots, now_str):
                 added, removed = diff_lines(prev_text, result["text"])
                 status = "Changed" if (added or removed) else "Unchanged"
                 fill   = CHANGED_FILL if (added or removed) else None
-            row = [now_str, short(url), status, len(added), len(removed),
+            row = [now_str, partner_name(url), short(url), status, len(added), len(removed),
                    "\n".join(added[:20]) or "-", "\n".join(removed[:20]) or "-"]
         else:
-            status = "Error"
-            fill   = ERROR_FILL
-            row    = [now_str, short(url), f"Error: {result['error']}", "", "", "", ""]
+            status, fill = "Error", ERROR_FILL
+            row = [now_str, partner_name(url), short(url), f"Error: {result['error']}", "", "", "", ""]
 
         ws_log.append(row)
         if fill:
             r = ws_log.max_row
-            for c in range(1, 8):
+            for c in range(1, 9):
                 ws_log.cell(r, c).fill = fill
         ws_log.row_dimensions[ws_log.max_row].height = 15
 
     ws_log.column_dimensions["A"].width = 20
-    ws_log.column_dimensions["B"].width = 35
-    ws_log.column_dimensions["C"].width = 16
-    ws_log.column_dimensions["D"].width = 13
-    ws_log.column_dimensions["E"].width = 15
-    ws_log.column_dimensions["F"].width = 60
+    ws_log.column_dimensions["B"].width = 18
+    ws_log.column_dimensions["C"].width = 35
+    ws_log.column_dimensions["D"].width = 16
+    ws_log.column_dimensions["E"].width = 13
+    ws_log.column_dimensions["F"].width = 15
     ws_log.column_dimensions["G"].width = 60
+    ws_log.column_dimensions["H"].width = 60
     ws_log.freeze_panes = "A2"
 
     if "Current Snapshot" in wb.sheetnames:
         del wb["Current Snapshot"]
     ws_snap = wb.create_sheet("Current Snapshot")
-    ws_snap.append(["File", "Last Updated", "Line Count", "Status"])
-    style_header(ws_snap, 1, 4)
+    ws_snap.append(["Partner", "File", "Last Updated", "Line Count", "Status"])
+    style_header(ws_snap, 1, 5)
     for url, result in results.items():
         if result["ok"]:
-            ws_snap.append([short(url), now_str, len(result["text"].splitlines()), "OK"])
+            ws_snap.append([partner_name(url), short(url), now_str, len(result["text"].splitlines()), "OK"])
         else:
-            ws_snap.append([short(url), now_str, "-", f"Error: {result['error']}"])
-            ws_snap.cell(ws_snap.max_row, 4).fill = ERROR_FILL
+            ws_snap.append([partner_name(url), short(url), now_str, "-", f"Error: {result['error']}"])
+            ws_snap.cell(ws_snap.max_row, 5).fill = ERROR_FILL
     auto_width(ws_snap)
     ws_snap.freeze_panes = "A2"
 
@@ -176,6 +206,163 @@ def update_excel(results, snapshots, now_str):
     wb.save(EXCEL_FILE)
 
 
+def update_changelog(results, snapshots, now_str):
+    changelog = load_changelog()
+    for url, result in results.items():
+        key = short(url)
+        prev_text = snapshots.get(url, {}).get("text")
+        if not result["ok"]:
+            entry = {"date": now_str, "status": "error", "error": result["error"]}
+        elif prev_text is None:
+            entry = {"date": now_str, "status": "first_snapshot", "lines": len(result["text"].splitlines())}
+        else:
+            added, removed = diff_lines(prev_text, result["text"])
+            if added or removed:
+                entry = {"date": now_str, "status": "changed",
+                         "added": added, "removed": removed,
+                         "lines": len(result["text"].splitlines())}
+            else:
+                entry = {"date": now_str, "status": "unchanged",
+                         "lines": len(result["text"].splitlines())}
+        if key not in changelog:
+            changelog[key] = []
+        changelog[key].append(entry)
+    save_changelog(changelog)
+    return changelog
+
+
+def esc(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def generate_html(changelog, now_str):
+    # Group files by partner
+    partner_files = {}
+    for url in FILES:
+        p = partner_name(url)
+        partner_files.setdefault(p, [])
+        partner_files[p].append(short(url))
+
+    total_changes = sum(
+        1 for entries in changelog.values()
+        for e in entries if e["status"] == "changed"
+    )
+
+    partner_sections = ""
+    for partner, files in sorted(partner_files.items()):
+        file_blocks = ""
+        for f in files:
+            entries = changelog.get(f, [])
+            if not entries:
+                continue
+            # Most recent first
+            entries_desc = list(reversed(entries))
+            last = entries_desc[0]
+            last_status = last["status"]
+            badge_map = {
+                "changed":        ('<span class="badge changed">Changed</span>', True),
+                "unchanged":      ('<span class="badge ok">Unchanged</span>', False),
+                "error":          ('<span class="badge error">Error</span>', True),
+                "first_snapshot": ('<span class="badge new">First snapshot</span>', False),
+            }
+            badge, show_open = badge_map.get(last_status, ('', False))
+
+            timeline = ""
+            for e in entries_desc:
+                if e["status"] == "changed":
+                    added_html = "".join(f'<div class="line add">+ {esc(l)}</div>' for l in e["added"][:30])
+                    removed_html = "".join(f'<div class="line del">- {esc(l)}</div>' for l in e["removed"][:30])
+                    more_a = f'<div class="line muted">… {len(e["added"])-30} more added lines</div>' if len(e["added"]) > 30 else ""
+                    more_r = f'<div class="line muted">… {len(e["removed"])-30} more removed lines</div>' if len(e["removed"]) > 30 else ""
+                    diff_block = f'<div class="diff">{added_html}{more_a}{removed_html}{more_r}</div>'
+                    meta = f'+{len(e["added"])} added &nbsp;·&nbsp; -{len(e["removed"])} removed &nbsp;·&nbsp; {e.get("lines","?")} lines total'
+                    timeline += f'<div class="entry changed"><div class="entry-date">{e["date"]}</div><div class="entry-meta">{meta}</div>{diff_block}</div>'
+                elif e["status"] == "error":
+                    timeline += f'<div class="entry error"><div class="entry-date">{e["date"]}</div><div class="entry-meta">Error: {esc(e.get("error",""))}</div></div>'
+                elif e["status"] == "first_snapshot":
+                    timeline += f'<div class="entry new"><div class="entry-date">{e["date"]}</div><div class="entry-meta">First snapshot saved &nbsp;·&nbsp; {e.get("lines","?")} lines</div></div>'
+                else:
+                    timeline += f'<div class="entry ok"><div class="entry-date">{e["date"]}</div><div class="entry-meta">No changes &nbsp;·&nbsp; {e.get("lines","?")} lines</div></div>'
+
+            change_count = sum(1 for e in entries if e["status"] == "changed")
+            count_tag = f'<span class="count">{change_count} change{"s" if change_count!=1 else ""}</span>' if change_count else ""
+            open_attr = "open" if show_open else ""
+            file_blocks += f'''
+            <details class="file-block" {open_attr}>
+              <summary><span class="file-name">{f}</span>{badge}{count_tag}</summary>
+              <div class="timeline">{timeline}</div>
+            </details>'''
+
+        partner_sections += f'''
+        <section class="partner">
+          <h2>{partner}</h2>
+          {file_blocks}
+        </section>'''
+
+    html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ads.txt Monitor</title>
+<style>
+  *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0 }}
+  body {{ font-family: Arial, sans-serif; background: #f4f6f9; color: #1a1a2e; font-size: 14px; line-height: 1.5 }}
+  header {{ background: #1F3864; color: #fff; padding: 24px 32px }}
+  header h1 {{ font-size: 22px; font-weight: 600; margin-bottom: 4px }}
+  header p {{ color: #BDD7EE; font-size: 13px }}
+  .stats {{ display: flex; gap: 16px; padding: 20px 32px; background: #fff; border-bottom: 1px solid #e0e0e0; flex-wrap: wrap }}
+  .stat {{ background: #f4f6f9; border-radius: 8px; padding: 12px 20px; min-width: 140px }}
+  .stat-val {{ font-size: 24px; font-weight: 700; color: #1F3864 }}
+  .stat-lbl {{ font-size: 12px; color: #666; margin-top: 2px }}
+  main {{ max-width: 960px; margin: 28px auto; padding: 0 20px 60px }}
+  .partner {{ background: #fff; border-radius: 10px; border: 1px solid #e0e0e0; margin-bottom: 24px; overflow: hidden }}
+  .partner h2 {{ font-size: 16px; font-weight: 600; padding: 16px 20px; background: #f0f4fa; border-bottom: 1px solid #e0e0e0; color: #1F3864 }}
+  .file-block {{ border-bottom: 1px solid #f0f0f0 }}
+  .file-block:last-child {{ border-bottom: none }}
+  .file-block summary {{ display: flex; align-items: center; gap: 10px; padding: 13px 20px; cursor: pointer; list-style: none; user-select: none }}
+  .file-block summary:hover {{ background: #fafbfc }}
+  .file-name {{ font-family: monospace; font-size: 13px; flex: 1; color: #333 }}
+  .badge {{ font-size: 11px; padding: 2px 10px; border-radius: 20px; font-weight: 600 }}
+  .badge.changed {{ background: #FCE4D6; color: #843C0C }}
+  .badge.ok {{ background: #f0f0f0; color: #666 }}
+  .badge.error {{ background: #FFF2CC; color: #7B6000 }}
+  .badge.new {{ background: #E2EFDA; color: #375623 }}
+  .count {{ font-size: 11px; color: #999; margin-left: 4px }}
+  .timeline {{ padding: 0 20px 16px }}
+  .entry {{ margin-top: 12px; border-radius: 6px; padding: 10px 14px; border-left: 3px solid #ddd }}
+  .entry.changed {{ border-left-color: #E24B4A; background: #fff9f9 }}
+  .entry.ok {{ border-left-color: #ccc; background: #fafafa }}
+  .entry.error {{ border-left-color: #f0ad4e; background: #fffdf0 }}
+  .entry.new {{ border-left-color: #1D9E75; background: #f6fffa }}
+  .entry-date {{ font-size: 12px; color: #999; margin-bottom: 3px }}
+  .entry-meta {{ font-size: 13px; color: #555 }}
+  .diff {{ margin-top: 8px; border-radius: 4px; overflow: hidden; font-family: monospace; font-size: 12px }}
+  .line {{ padding: 2px 8px; white-space: pre-wrap; word-break: break-all }}
+  .line.add {{ background: #E2EFDA; color: #375623 }}
+  .line.del {{ background: #FCE4D6; color: #843C0C }}
+  .line.muted {{ background: #f5f5f5; color: #999 }}
+  details[open] summary {{ background: #f7f9fc }}
+</style>
+</head>
+<body>
+<header>
+  <h1>ads.txt Monitor</h1>
+  <p>Last updated: {now_str} &nbsp;·&nbsp; Tracking {len(FILES)} files across {len(PARTNERS)} partners</p>
+</header>
+<div class="stats">
+  <div class="stat"><div class="stat-val">{len(PARTNERS)}</div><div class="stat-lbl">Partners</div></div>
+  <div class="stat"><div class="stat-val">{len(FILES)}</div><div class="stat-lbl">Files monitored</div></div>
+  <div class="stat"><div class="stat-val">{total_changes}</div><div class="stat-lbl">Total changes detected</div></div>
+</div>
+<main>{partner_sections}</main>
+</body>
+</html>'''
+
+    with open(HTML_FILE, "w", encoding="utf-8") as f:
+        f.write(html)
+
+
 def build_email_html(results, snapshots, now_str):
     changes, errors, unchanged, fresh = [], [], [], []
     for url, result in results.items():
@@ -196,31 +383,35 @@ def build_email_html(results, snapshots, now_str):
 
     rows = ""
     for url, added, removed in changes:
-        rows += (f'<tr><td style="padding:10px 12px;font-family:monospace;font-size:12px">{short(url)}</td>'
+        rows += (f'<tr><td style="padding:10px 12px;font-size:12px;color:#555">{partner_name(url)}</td>'
+                 f'<td style="padding:10px 12px;font-family:monospace;font-size:11px">{short(url)}</td>'
                  f'<td style="padding:10px 12px;text-align:center">{badge("CHANGED","#843C0C","#FCE4D6")}</td>'
                  f'<td style="padding:10px 12px;text-align:center;color:#375623">+{len(added)}</td>'
                  f'<td style="padding:10px 12px;text-align:center;color:#843C0C">-{len(removed)}</td></tr>')
         if added:
             preview = "\n".join(added[:30]) + ("..." if len(added) > 30 else "")
-            rows += (f'<tr><td colspan="4" style="padding:4px 12px 8px">'
+            rows += (f'<tr><td colspan="5" style="padding:4px 12px 8px">'
                      f'<details><summary style="font-size:12px;cursor:pointer;color:#375623">Show {len(added)} added lines</summary>'
                      f'<pre style="background:#E2EFDA;padding:8px;font-size:11px;margin-top:6px;overflow-x:auto">{preview}</pre>'
                      f'</details></td></tr>')
         if removed:
             preview = "\n".join(removed[:30]) + ("..." if len(removed) > 30 else "")
-            rows += (f'<tr><td colspan="4" style="padding:4px 12px 8px">'
+            rows += (f'<tr><td colspan="5" style="padding:4px 12px 8px">'
                      f'<details><summary style="font-size:12px;cursor:pointer;color:#843C0C">Show {len(removed)} removed lines</summary>'
                      f'<pre style="background:#FCE4D6;padding:8px;font-size:11px;margin-top:6px;overflow-x:auto">{preview}</pre>'
                      f'</details></td></tr>')
     for url, err in errors:
-        rows += (f'<tr><td style="padding:10px 12px;font-family:monospace;font-size:12px">{short(url)}</td>'
+        rows += (f'<tr><td style="padding:10px 12px;font-size:12px;color:#555">{partner_name(url)}</td>'
+                 f'<td style="padding:10px 12px;font-family:monospace;font-size:11px">{short(url)}</td>'
                  f'<td style="padding:10px 12px;text-align:center">{badge("ERROR","#7B6000","#FFF2CC")}</td>'
                  f'<td colspan="2" style="padding:10px 12px;font-size:12px;color:#7B6000">{err}</td></tr>')
     for url in unchanged:
-        rows += (f'<tr style="color:#888"><td style="padding:8px 12px;font-family:monospace;font-size:12px">{short(url)}</td>'
+        rows += (f'<tr style="color:#aaa"><td style="padding:8px 12px;font-size:12px">{partner_name(url)}</td>'
+                 f'<td style="padding:8px 12px;font-family:monospace;font-size:11px">{short(url)}</td>'
                  f'<td style="padding:8px 12px;text-align:center">{badge("OK","#555","#eee")}</td><td colspan="2"></td></tr>')
     for url in fresh:
-        rows += (f'<tr><td style="padding:8px 12px;font-family:monospace;font-size:12px">{short(url)}</td>'
+        rows += (f'<tr><td style="padding:8px 12px;font-size:12px;color:#555">{partner_name(url)}</td>'
+                 f'<td style="padding:8px 12px;font-family:monospace;font-size:11px">{short(url)}</td>'
                  f'<td style="padding:8px 12px;text-align:center">{badge("NEW","#1F3864","#BDD7EE")}</td>'
                  f'<td colspan="2" style="font-size:12px;color:#555">First snapshot saved</td></tr>')
 
@@ -229,12 +420,13 @@ def build_email_html(results, snapshots, now_str):
 
     html = (f'<!DOCTYPE html><html><head><meta charset="utf-8"></head>'
             f'<body style="font-family:Arial,sans-serif;background:#f5f5f5;margin:0;padding:20px">'
-            f'<div style="max-width:700px;margin:auto;background:#fff;border-radius:8px;overflow:hidden;border:1px solid #ddd">'
+            f'<div style="max-width:760px;margin:auto;background:#fff;border-radius:8px;overflow:hidden;border:1px solid #ddd">'
             f'<div style="background:#1F3864;padding:20px 24px">'
             f'<h1 style="color:#fff;margin:0;font-size:18px">ads.txt Monitor Report</h1>'
             f'<p style="color:#BDD7EE;margin:6px 0 0;font-size:13px">{now_str} · {summary}</p></div>'
             f'<table style="width:100%;border-collapse:collapse">'
             f'<thead><tr style="background:#F2F2F2;font-size:12px;color:#555">'
+            f'<th style="padding:10px 12px;text-align:left">Partner</th>'
             f'<th style="padding:10px 12px;text-align:left">File</th>'
             f'<th style="padding:10px 12px">Status</th>'
             f'<th style="padding:10px 12px">Added</th>'
@@ -278,6 +470,10 @@ def main():
 
     update_excel(results, snapshots, now_str)
     print(f"Excel updated -> {EXCEL_FILE}")
+
+    changelog = update_changelog(results, snapshots, now_str)
+    generate_html(changelog, now_str)
+    print(f"HTML log updated -> {HTML_FILE}")
 
     subject_tag, html = build_email_html(results, snapshots, now_str)
     send_email(subject_tag, html, now_str)
