@@ -43,13 +43,10 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update snapshots $(date -u +'%Y-%m-%d')"
           git push
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        with:
-          artifact_name: github-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
