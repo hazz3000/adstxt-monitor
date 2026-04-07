@@ -5,6 +5,11 @@ on:
     - cron: "0 9 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
@@ -30,10 +35,21 @@ jobs:
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
         run: python monitor.py
 
-      - name: Commit updated snapshots & Excel
+      - name: Commit updated files
         run: |
           git config user.name  "ads.txt Monitor"
           git config user.email "monitor@github-actions"
-          git add snapshots.json adstxt_changes.xlsx
+          git add snapshots.json change_log.json adstxt_changes.xlsx index.html
           git diff --cached --quiet || git commit -m "chore: update snapshots $(date -u +'%Y-%m-%d')"
           git push
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
