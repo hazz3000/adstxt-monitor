@@ -1,4 +1,8 @@
-import os, json, requests, datetime, base64
+import os, json, smtplib, requests, datetime
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
@@ -18,8 +22,8 @@ FILES = [
 
 SNAPSHOTS_FILE = "snapshots.json"
 EXCEL_FILE = "adstxt_changes.xlsx"
-RESEND_API_KEY = os.environ["RESEND_API_KEY"]
-FROM_EMAIL = os.environ["FROM_EMAIL"]
+GMAIL_USER = os.environ["GMAIL_USER"]
+GMAIL_APP_PASSWORD = os.environ["GMAIL_APP_PASSWORD"]
 NOTIFY_EMAIL = os.environ["NOTIFY_EMAIL"]
 
 HEADER_FILL = PatternFill("solid", start_color="1F3864")
@@ -245,22 +249,20 @@ def build_email_html(results, snapshots, now_str):
 
 def send_email(subject_tag, html_body, now_str):
     subject = f"[ads.txt Monitor] {subject_tag} - {now_str}"
+    msg = MIMEMultipart("mixed")
+    msg["From"] = GMAIL_USER
+    msg["To"] = NOTIFY_EMAIL
+    msg["Subject"] = subject
+    msg.attach(MIMEText(html_body, "html"))
     with open(EXCEL_FILE, "rb") as f:
-        attachment_b64 = base64.b64encode(f.read()).decode()
-    payload = {
-        "from": FROM_EMAIL,
-        "to": [NOTIFY_EMAIL],
-        "subject": subject,
-        "html": html_body,
-        "attachments": [{"filename": EXCEL_FILE, "content": attachment_b64}],
-    }
-    resp = requests.post(
-        "https://api.resend.com/emails",
-        headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
-        json=payload,
-        timeout=15,
-    )
-    resp.raise_for_status()
+        part = MIMEBase("application", "octet-stream")
+        part.set_payload(f.read())
+        encoders.encode_base64(part)
+        part.add_header("Content-Disposition", f'attachment; filename="{EXCEL_FILE}"')
+        msg.attach(part)
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
+        server.sendmail(GMAIL_USER, NOTIFY_EMAIL, msg.as_string())
 
 
 def main():
