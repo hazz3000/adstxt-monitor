@@ -32,9 +32,9 @@ SNAPSHOTS_FILE  = "snapshots.json"
 CHANGELOG_FILE  = "change_log.json"
 EXCEL_FILE      = "adstxt_changes.xlsx"
 HTML_FILE       = "index.html"
-GMAIL_USER      = os.environ["GMAIL_USER"]
+GMAIL_USER         = os.environ["GMAIL_USER"]
 GMAIL_APP_PASSWORD = os.environ["GMAIL_APP_PASSWORD"]
-NOTIFY_EMAIL    = os.environ["NOTIFY_EMAIL"]
+NOTIFY_EMAIL       = os.environ["NOTIFY_EMAIL"]
 
 HEADER_FILL = PatternFill("solid", start_color="1F3864")
 CHANGED_FILL = PatternFill("solid", start_color="FCE4D6")
@@ -77,12 +77,30 @@ def save_changelog(changelog):
         json.dump(changelog, f, indent=2)
 
 
+def section_map(text):
+    """Return dict mapping each line -> its nearest preceding # header."""
+    mapping = {}
+    current = "(no section)"
+    for line in (text or "").splitlines():
+        stripped = line.strip()
+        if stripped.startswith("#"):
+            current = stripped
+        mapping[stripped] = current
+    return mapping
+
+
 def diff_lines(old, new):
-    old_lines = old.splitlines() if old else []
-    new_lines = new.splitlines() if new else []
-    old_set, new_set = set(old_lines), set(new_lines)
-    added   = [l for l in new_lines if l not in old_set]
-    removed = [l for l in old_lines if l not in new_set]
+    """Return added/removed lines each as list of {line, section} dicts."""
+    old_lines = [l.strip() for l in (old or "").splitlines() if l.strip()]
+    new_lines = [l.strip() for l in (new or "").splitlines() if l.strip()]
+    old_set = set(old_lines)
+    new_set = set(new_lines)
+
+    old_smap = section_map(old)
+    new_smap = section_map(new)
+
+    added   = [{"line": l, "section": new_smap.get(l, "")} for l in new_lines if l not in old_set and not l.startswith("#")]
+    removed = [{"line": l, "section": old_smap.get(l, "")} for l in old_lines if l not in new_set and not l.startswith("#")]
     return added, removed
 
 
@@ -119,7 +137,7 @@ def update_excel(results, snapshots, now_str):
 
     if "Change Log" not in wb.sheetnames:
         ws_log = wb.create_sheet("Change Log", 0)
-        ws_log.append(["Timestamp", "Partner", "File", "Status", "Lines Added", "Lines Removed", "Added Lines", "Removed Lines"])
+        ws_log.append(["Timestamp", "Partner", "File", "Status", "Lines Added", "Lines Removed", "Added (Section: Line)", "Removed (Section: Line)"])
         style_header(ws_log, 1, 8)
         ws_log.row_dimensions[1].height = 20
     else:
@@ -135,8 +153,12 @@ def update_excel(results, snapshots, now_str):
                 added, removed = diff_lines(prev_text, result["text"])
                 status = "Changed" if (added or removed) else "Unchanged"
                 fill   = CHANGED_FILL if (added or removed) else None
-            row = [now_str, partner_name(url), short(url), status, len(added), len(removed),
-                   "\n".join(added[:20]) or "-", "\n".join(removed[:20]) or "-"]
+
+            def fmt(items):
+                return "\n".join(f'{x["section"]}: {x["line"]}' for x in items[:20]) or "-"
+
+            row = [now_str, partner_name(url), short(url), status,
+                   len(added), len(removed), fmt(added), fmt(removed)]
         else:
             status, fill = "Error", ERROR_FILL
             row = [now_str, partner_name(url), short(url), f"Error: {result['error']}", "", "", "", ""]
@@ -154,8 +176,8 @@ def update_excel(results, snapshots, now_str):
     ws_log.column_dimensions["D"].width = 16
     ws_log.column_dimensions["E"].width = 13
     ws_log.column_dimensions["F"].width = 15
-    ws_log.column_dimensions["G"].width = 60
-    ws_log.column_dimensions["H"].width = 60
+    ws_log.column_dimensions["G"].width = 70
+    ws_log.column_dimensions["H"].width = 70
     ws_log.freeze_panes = "A2"
 
     if "Current Snapshot" in wb.sheetnames:
@@ -185,22 +207,23 @@ def update_excel(results, snapshots, now_str):
         if sname in wb.sheetnames:
             del wb[sname]
         ws_d = wb.create_sheet(sname)
-        ws_d.append(["Type", "Line Content"])
-        style_header(ws_d, 1, 2)
-        for line in added:
-            ws_d.append(["+ Added", line])
+        ws_d.append(["Type", "Section", "Line Content"])
+        style_header(ws_d, 1, 3)
+        for item in added:
+            ws_d.append(["+ Added", item["section"], item["line"]])
             r = ws_d.max_row
-            for c in [1, 2]:
+            for c in [1, 2, 3]:
                 ws_d.cell(r, c).fill = ADD_FILL
                 ws_d.cell(r, c).font = Font(color="375623", name="Arial", size=9)
-        for line in removed:
-            ws_d.append(["- Removed", line])
+        for item in removed:
+            ws_d.append(["- Removed", item["section"], item["line"]])
             r = ws_d.max_row
-            for c in [1, 2]:
+            for c in [1, 2, 3]:
                 ws_d.cell(r, c).fill = DEL_FILL
                 ws_d.cell(r, c).font = Font(color="843C0C", name="Arial", size=9)
         ws_d.column_dimensions["A"].width = 12
-        ws_d.column_dimensions["B"].width = 80
+        ws_d.column_dimensions["B"].width = 25
+        ws_d.column_dimensions["C"].width = 80
         ws_d.freeze_panes = "A2"
 
     wb.save(EXCEL_FILE)
@@ -232,11 +255,26 @@ def update_changelog(results, snapshots, now_str):
 
 
 def esc(s):
-    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def render_diff_items(items, css_class, label_color):
+    if not items:
+        return ""
+    # Group by section
+    sections = {}
+    for item in items:
+        sec = item.get("section", "(no section)")
+        sections.setdefault(sec, []).append(item["line"])
+    html = ""
+    for sec, lines in sections.items():
+        html += f'<div class="section-header">{esc(sec)}</div>'
+        for line in lines:
+            html += f'<div class="line {css_class}">{esc(line)}</div>'
+    return html
 
 
 def generate_html(changelog, now_str):
-    # Group files by partner
     partner_files = {}
     for url in FILES:
         p = partner_name(url)
@@ -255,27 +293,26 @@ def generate_html(changelog, now_str):
             entries = changelog.get(f, [])
             if not entries:
                 continue
-            # Most recent first
             entries_desc = list(reversed(entries))
             last = entries_desc[0]
             last_status = last["status"]
             badge_map = {
-                "changed":        ('<span class="badge changed">Changed</span>', True),
-                "unchanged":      ('<span class="badge ok">Unchanged</span>', False),
-                "error":          ('<span class="badge error">Error</span>', True),
-                "first_snapshot": ('<span class="badge new">First snapshot</span>', False),
+                "changed":        '<span class="badge changed">Changed</span>',
+                "unchanged":      '<span class="badge ok">Unchanged</span>',
+                "error":          '<span class="badge error">Error</span>',
+                "first_snapshot": '<span class="badge new">First snapshot</span>',
             }
-            badge, show_open = badge_map.get(last_status, ('', False))
+            badge = badge_map.get(last_status, "")
+            show_open = last_status in ("changed", "error")
 
             timeline = ""
             for e in entries_desc:
                 if e["status"] == "changed":
-                    added_html = "".join(f'<div class="line add">+ {esc(l)}</div>' for l in e["added"][:30])
-                    removed_html = "".join(f'<div class="line del">- {esc(l)}</div>' for l in e["removed"][:30])
-                    more_a = f'<div class="line muted">… {len(e["added"])-30} more added lines</div>' if len(e["added"]) > 30 else ""
-                    more_r = f'<div class="line muted">… {len(e["removed"])-30} more removed lines</div>' if len(e["removed"]) > 30 else ""
-                    diff_block = f'<div class="diff">{added_html}{more_a}{removed_html}{more_r}</div>'
-                    meta = f'+{len(e["added"])} added &nbsp;·&nbsp; -{len(e["removed"])} removed &nbsp;·&nbsp; {e.get("lines","?")} lines total'
+                    added_html   = render_diff_items(e.get("added", []),   "add", "#375623")
+                    removed_html = render_diff_items(e.get("removed", []), "del", "#843C0C")
+                    diff_block = f'<div class="diff">{added_html}{removed_html}</div>' if (added_html or removed_html) else ""
+                    na, nr = len(e.get("added", [])), len(e.get("removed", []))
+                    meta = f'+{na} added &nbsp;·&nbsp; -{nr} removed &nbsp;·&nbsp; {e.get("lines","?")} lines total'
                     timeline += f'<div class="entry changed"><div class="entry-date">{e["date"]}</div><div class="entry-meta">{meta}</div>{diff_block}</div>'
                 elif e["status"] == "error":
                     timeline += f'<div class="entry error"><div class="entry-date">{e["date"]}</div><div class="entry-meta">Error: {esc(e.get("error",""))}</div></div>'
@@ -337,11 +374,11 @@ def generate_html(changelog, now_str):
   .entry.new {{ border-left-color: #1D9E75; background: #f6fffa }}
   .entry-date {{ font-size: 12px; color: #999; margin-bottom: 3px }}
   .entry-meta {{ font-size: 13px; color: #555 }}
-  .diff {{ margin-top: 8px; border-radius: 4px; overflow: hidden; font-family: monospace; font-size: 12px }}
-  .line {{ padding: 2px 8px; white-space: pre-wrap; word-break: break-all }}
+  .diff {{ margin-top: 10px; border-radius: 4px; overflow: hidden; font-family: monospace; font-size: 12px }}
+  .section-header {{ background: #e8edf5; color: #1F3864; padding: 4px 10px; font-weight: 700; font-size: 11px; letter-spacing: 0.03em; margin-top: 4px }}
+  .line {{ padding: 2px 10px; white-space: pre-wrap; word-break: break-all }}
   .line.add {{ background: #E2EFDA; color: #375623 }}
   .line.del {{ background: #FCE4D6; color: #843C0C }}
-  .line.muted {{ background: #f5f5f5; color: #999 }}
   details[open] summary {{ background: #f7f9fc }}
 </style>
 </head>
@@ -381,6 +418,18 @@ def build_email_html(results, snapshots, now_str):
     def badge(text, color, bg):
         return f'<span style="background:{bg};color:{color};padding:2px 8px;border-radius:12px;font-size:12px;font-weight:600">{text}</span>'
 
+    def fmt_items(items):
+        sections = {}
+        for item in items:
+            sec = item.get("section", "(no section)")
+            sections.setdefault(sec, []).append(item["line"])
+        out = ""
+        for sec, lines in sections.items():
+            out += f'<div style="background:#dde4f0;color:#1F3864;font-weight:700;font-size:11px;padding:3px 8px;margin-top:4px">{esc(sec)}</div>'
+            for line in lines[:20]:
+                out += f'<div style="padding:1px 8px">{esc(line)}</div>'
+        return out
+
     rows = ""
     for url, added, removed in changes:
         rows += (f'<tr><td style="padding:10px 12px;font-size:12px;color:#555">{partner_name(url)}</td>'
@@ -389,16 +438,14 @@ def build_email_html(results, snapshots, now_str):
                  f'<td style="padding:10px 12px;text-align:center;color:#375623">+{len(added)}</td>'
                  f'<td style="padding:10px 12px;text-align:center;color:#843C0C">-{len(removed)}</td></tr>')
         if added:
-            preview = "\n".join(added[:30]) + ("..." if len(added) > 30 else "")
             rows += (f'<tr><td colspan="5" style="padding:4px 12px 8px">'
                      f'<details><summary style="font-size:12px;cursor:pointer;color:#375623">Show {len(added)} added lines</summary>'
-                     f'<pre style="background:#E2EFDA;padding:8px;font-size:11px;margin-top:6px;overflow-x:auto">{preview}</pre>'
+                     f'<div style="background:#E2EFDA;font-family:monospace;font-size:11px;margin-top:6px;border-radius:4px;overflow:hidden">{fmt_items(added)}</div>'
                      f'</details></td></tr>')
         if removed:
-            preview = "\n".join(removed[:30]) + ("..." if len(removed) > 30 else "")
             rows += (f'<tr><td colspan="5" style="padding:4px 12px 8px">'
                      f'<details><summary style="font-size:12px;cursor:pointer;color:#843C0C">Show {len(removed)} removed lines</summary>'
-                     f'<pre style="background:#FCE4D6;padding:8px;font-size:11px;margin-top:6px;overflow-x:auto">{preview}</pre>'
+                     f'<div style="background:#FCE4D6;font-family:monospace;font-size:11px;margin-top:6px;border-radius:4px;overflow:hidden">{fmt_items(removed)}</div>'
                      f'</details></td></tr>')
     for url, err in errors:
         rows += (f'<tr><td style="padding:10px 12px;font-size:12px;color:#555">{partner_name(url)}</td>'
