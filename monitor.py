@@ -504,6 +504,72 @@ def send_email(subject_tag, html_body, now_str):
         server.sendmail(GMAIL_USER, NOTIFY_EMAIL, msg.as_string())
 
 
+def generate_amc_html(changelog, now_str):
+    """Flat, fully-expanded page for AMC Networks files — no <details>, AI-readable."""
+    amc_files = ["amc.com/ads.txt", "amc.com/app-ads.txt"]
+    CSS = """
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+  body { font-family: Arial, sans-serif; background: #f4f6f9; color: #1a1a2e; font-size: 14px; line-height: 1.5 }
+  header { background: #1F3864; color: #fff; padding: 24px 32px }
+  header h1 { font-size: 22px; font-weight: 600; margin-bottom: 4px }
+  header p { color: #BDD7EE; font-size: 13px }
+  main { max-width: 960px; margin: 28px auto; padding: 0 20px 60px }
+  .file-block { background: #fff; border-radius: 10px; border: 1px solid #e0e0e0; margin-bottom: 28px; overflow: hidden }
+  .file-title { font-size: 15px; font-weight: 600; padding: 14px 20px; background: #f0f4fa; border-bottom: 1px solid #e0e0e0; color: #1F3864; font-family: monospace }
+  .entry { margin: 12px 16px; border-radius: 6px; padding: 10px 14px; border-left: 3px solid #ddd }
+  .entry.changed { border-left-color: #E24B4A; background: #fff9f9 }
+  .entry.ok { border-left-color: #ccc; background: #fafafa }
+  .entry.error { border-left-color: #f0ad4e; background: #fffdf0 }
+  .entry.new { border-left-color: #1D9E75; background: #f6fffa }
+  .entry-date { font-size: 12px; color: #999; margin-bottom: 3px }
+  .entry-meta { font-size: 13px; color: #555; margin-bottom: 6px }
+  .diff { border-radius: 4px; overflow: hidden; font-family: monospace; font-size: 12px }
+  .section-header { background: #e8edf5; color: #1F3864; padding: 4px 10px; font-weight: 700; font-size: 11px; margin-top: 4px }
+  .line { padding: 2px 10px; white-space: pre-wrap; word-break: break-all }
+  .line.add { background: #E2EFDA; color: #375623 }
+  .line.del { background: #FCE4D6; color: #843C0C }
+"""
+    file_blocks = ""
+    for f in amc_files:
+        entries = list(reversed(changelog.get(f, [])))
+        timeline = ""
+        for e in entries:
+            if e["status"] == "changed":
+                added_html   = render_diff_items(e.get("added", []),   "add", "#375623")
+                removed_html = render_diff_items(e.get("removed", []), "del", "#843C0C")
+                diff_block = f'<div class="diff">{added_html}{removed_html}</div>'
+                na, nr = len(e.get("added", [])), len(e.get("removed", []))
+                meta = f'+{na} added &nbsp;&middot;&nbsp; -{nr} removed &nbsp;&middot;&nbsp; {e.get("lines","?")} lines total'
+                timeline += f'<div class="entry changed"><div class="entry-date">{e["date"]}</div><div class="entry-meta">{meta}</div>{diff_block}</div>'
+            elif e["status"] == "error":
+                timeline += f'<div class="entry error"><div class="entry-date">{e["date"]}</div><div class="entry-meta">Error: {esc(e.get("error",""))}</div></div>'
+            elif e["status"] == "first_snapshot":
+                timeline += f'<div class="entry new"><div class="entry-date">{e["date"]}</div><div class="entry-meta">First snapshot &nbsp;&middot;&nbsp; {e.get("lines","?")} lines</div></div>'
+            else:
+                timeline += f'<div class="entry ok"><div class="entry-date">{e["date"]}</div><div class="entry-meta">No changes &nbsp;&middot;&nbsp; {e.get("lines","?")} lines</div></div>'
+        file_blocks += f'<div class="file-block"><div class="file-title">{f}</div>{timeline}</div>'
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AMC Networks — ads.txt Change Log</title>
+<style>{CSS}</style>
+</head>
+<body>
+<header>
+  <h1>AMC Networks — ads.txt Change Log</h1>
+  <p>Last updated: {now_str} &nbsp;·&nbsp; All entries fully expanded &nbsp;·&nbsp; <a href="index.html" style="color:#BDD7EE">View all partners</a></p>
+</header>
+<main>{file_blocks}</main>
+</body>
+</html>"""
+
+    with open("amc.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
+
 def main():
     now_str = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     snapshots = load_snapshots()
@@ -520,7 +586,8 @@ def main():
 
     changelog = update_changelog(results, snapshots, now_str)
     generate_html(changelog, now_str)
-    print(f"HTML log updated -> {HTML_FILE}")
+    generate_amc_html(changelog, now_str)
+    print(f"HTML log updated -> {HTML_FILE} + amc.html")
 
     subject_tag, html = build_email_html(results, snapshots, now_str)
     send_email(subject_tag, html, now_str)
