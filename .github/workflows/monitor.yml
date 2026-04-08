@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name  "ads.txt Monitor"
           git config user.email "monitor@github-actions"
-          git add snapshots.json change_log.json adstxt_changes.xlsx index.html
+          git add snapshots.json change_log.json adstxt_changes.xlsx index.html amc.html
           git diff --cached --quiet || git commit -m "chore: update snapshots $(date -u +'%Y-%m-%d')"
           git pull --rebase origin main
           git push
