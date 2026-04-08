@@ -5,18 +5,33 @@ from pathlib import Path
 # ADD NEW COMPETITORS HERE — just append a new entry
 # ─────────────────────────────────────────────
 COMPETITORS = [
-    {"name": "Disney",       "domain": "disney.com",           "ads_txt": "https://disney.com/ads.txt",           "color": "#1a78c2", "initial": "D"},
-    {"name": "NBCUniversal", "domain": "nbcuniversal.com",     "ads_txt": "https://nbcuniversal.com/ads.txt",     "color": "#000000", "initial": "N"},
-    {"name": "Hulu",         "domain": "hulu.com",             "ads_txt": "https://hulu.com/ads.txt",             "color": "#1ce783", "initial": "H"},
-    {"name": "Peacock",      "domain": "peacocktv.com",        "ads_txt": "https://peacocktv.com/ads.txt",        "color": "#f2a900", "initial": "P"},
-    {"name": "Paramount",    "domain": "paramount.com",        "ads_txt": "https://paramount.com/ads.txt",        "color": "#0064ff", "initial": "P"},
-    {"name": "Discovery",    "domain": "discovery.com",        "ads_txt": "https://discovery.com/ads.txt",        "color": "#003087", "initial": "D"},
-    {"name": "FX",           "domain": "fxnetworks.com",       "ads_txt": "https://fxnetworks.com/ads.txt",       "color": "#cc0000", "initial": "F"},
-    {"name": "HBO Max",      "domain": "max.com",              "ads_txt": "https://max.com/ads.txt",              "color": "#002be7", "initial": "M"},
-    {"name": "Plex",         "domain": "plex.tv",              "ads_txt": "https://plex.tv/ads.txt",              "color": "#e5a00d", "initial": "P"},
-    {"name": "Philo",        "domain": "philo.com",            "ads_txt": "https://philo.com/ads.txt",            "color": "#4b0082", "initial": "P"},
-    {"name": "Vizio",        "domain": "vizio.com",            "ads_txt": "https://vizio.com/ads.txt",            "color": "#00a0dc", "initial": "V"},
-    {"name": "Spectrum",     "domain": "spectrum.com",         "ads_txt": "https://spectrum.com/ads.txt",         "color": "#0099d8", "initial": "S"},
+    # ── Confirmed URLs ──────────────────────────────────────────────────────────
+    {"name": "Netflix",      "domain": "netflix.com",          "ads_txt": "https://www.netflix.com/ads.txt",              "color": "#e50914", "initial": "N"},
+    {"name": "Peacock",      "domain": "peacocktv.com",        "ads_txt": "https://www.peacocktv.com/ads.txt",            "color": "#f2a900", "initial": "P"},
+    {"name": "Paramount",    "domain": "paramount.com",        "ads_txt": "https://www.paramount.com/ads.txt",            "color": "#0064ff", "initial": "P"},
+    {"name": "Spectrum",     "domain": "spectrum.com",         "ads_txt": "https://www.spectrum.com/ads.txt",             "color": "#0099d8", "initial": "S"},
+    {"name": "Philo",        "domain": "philo.com",            "ads_txt": "https://www.philo.com/ads.txt",                "color": "#4b0082", "initial": "P"},
+    {"name": "Plex",         "domain": "plex.tv",              "ads_txt": "https://plex.tv/ads.txt",                      "color": "#e5a00d", "initial": "P"},
+    {"name": "Vizio",        "domain": "ad.platform.vizio.com","ads_txt": "https://ad.platform.vizio.com/ads.txt",        "color": "#00a0dc", "initial": "V"},
+    {"name": "Disney+",      "domain": "disneyplus.com",       "ads_txt": "https://www.disneyplus.com/ads.txt",           "color": "#1a78c2", "initial": "D"},
+    {"name": "NBC",          "domain": "nbc.com",              "ads_txt": "https://www.nbc.com/ads.txt",                  "color": "#cc0000", "initial": "N"},
+    {"name": "Tubi",         "domain": "tubitv.com",           "ads_txt": "https://tubitv.com/ads.txt",                    "color": "#fa4b00", "initial": "T"},
+    # ── Add more competitors below ───────────────────────────────────────────────
+    {"name": "Pluto TV",        "domain": "pluto.tv",               "ads_txt": "https://pluto.tv/ads.txt",                      "color": "#f4c500", "initial": "P"},
+    {"name": "Samsung TV Plus", "domain": "samsungtvplus.com",       "ads_txt": "https://samsungtvplus.com/ads.txt",              "color": "#1428a0", "initial": "S"},
+    {"name": "Roku Channel",    "domain": "roku.com",                "ads_txt": "https://www.roku.com/ads.txt",                   "color": "#6f1ab1", "initial": "R"},
+    {"name": "Xumo Play",       "domain": "xumo.com",                "ads_txt": "https://play.xumo.com/ads.txt",                  "color": "#00b4d8", "initial": "X"},
+    {"name": "Freevee",         "domain": "amazon.com",              "ads_txt": "https://www.amazon.com/ads.txt",                 "color": "#ff9900", "initial": "F"},
+    {"name": "Fox",             "domain": "fox.com",                 "ads_txt": "https://www.fox.com/ads.txt",                    "color": "#000000", "initial": "F"},
+    {"name": "A&E Networks",    "domain": "aetv.com",                "ads_txt": "https://www.aetv.com/ads.txt",                   "color": "#c8102e", "initial": "A"},
+    {"name": "Hallmark",        "domain": "hallmarkchannel.com",     "ads_txt": "https://www.hallmarkchannel.com/ads.txt",         "color": "#7b2d8b", "initial": "H"},
+    {"name": "Crackle",         "domain": "crackle.com",             "ads_txt": "https://www.crackle.com/ads.txt",                "color": "#e4002b", "initial": "C"},
+    {"name": "Fubo",            "domain": "fubo.tv",                 "ads_txt": "https://www.fubo.tv/ads.txt",                    "color": "#ff6b00", "initial": "F"},
+    {"name": "Hulu",         "domain": "hulu.com",             "ads_txt": "https://hulu.com/ads.txt",                     "color": "#1ce783", "initial": "H"},
+    {"name": "HBO Max",      "domain": "max.com",              "ads_txt": "https://max.com/ads.txt",                      "color": "#002be7", "initial": "M"},
+    {"name": "Discovery",    "domain": "discovery.com",        "ads_txt": "https://discovery.com/ads.txt",                "color": "#003087", "initial": "D"},
+    {"name": "FX",           "domain": "fxnetworks.com",       "ads_txt": "https://fxnetworks.com/ads.txt",               "color": "#333333", "initial": "F"},
+    {"name": "NBCUniversal", "domain": "nbcuniversal.com",     "ads_txt": "https://nbcuniversal.com/ads.txt",             "color": "#000000", "initial": "N"},
 ]
 
 COMP_SNAPSHOTS_FILE = "competitor_snapshots.json"
