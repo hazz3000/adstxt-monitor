@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Competitor ads.txt Monitor</title>
+<style>
+  
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+  body { font-family: Arial, sans-serif; background: #f4f6f9; color: #1a1a2e; font-size: 14px; line-height: 1.5 }
+  header { background: #1F3864; color: #fff; padding: 24px 32px }
+  header h1 { font-size: 22px; font-weight: 600; margin-bottom: 4px }
+  header p { color: #BDD7EE; font-size: 13px }
+  header a { color: #BDD7EE; }
+  main { max-width: 1000px; margin: 28px auto; padding: 0 20px 60px }
+  .section-title { font-size: 16px; font-weight: 600; color: #1F3864; margin: 28px 0 12px }
+  .card { background: #fff; border-radius: 10px; border: 1px solid #e0e0e0; margin-bottom: 16px; overflow: hidden }
+  .card-head { padding: 14px 20px; border-bottom: 1px solid #f0f0f0; display: flex; align-items: center; gap: 12px }
+  .logo-circle { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 700; color: #fff; flex-shrink: 0 }
+  .card-title { font-weight: 600; font-size: 15px }
+  .card-sub { font-size: 12px; color: #888; font-family: monospace }
+  .badge { font-size: 11px; padding: 2px 10px; border-radius: 20px; font-weight: 600; margin-left: auto }
+  .badge.changed { background: #FCE4D6; color: #843C0C }
+  .badge.ok { background: #f0f0f0; color: #666 }
+  .badge.error { background: #FFF2CC; color: #7B6000 }
+  .badge.new { background: #E2EFDA; color: #375623 }
+  .card-body { padding: 14px 20px }
+  .entry { border-radius: 6px; padding: 10px 14px; border-left: 3px solid #ddd; margin-bottom: 10px }
+  .entry.changed { border-left-color: #E24B4A; background: #fff9f9 }
+  .entry.ok { border-left-color: #ccc; background: #fafafa }
+  .entry.error { border-left-color: #f0ad4e; background: #fffdf0 }
+  .entry.new { border-left-color: #1D9E75; background: #f6fffa }
+  .entry.opportunity { border-left-color: #7B2FBE; background: #f9f5ff }
+  .entry-date { font-size: 12px; color: #999; margin-bottom: 3px }
+  .entry-meta { font-size: 13px; color: #555; margin-bottom: 6px }
+  .diff { border-radius: 4px; overflow: hidden; font-family: monospace; font-size: 12px }
+  .line { padding: 2px 10px; white-space: pre-wrap; word-break: break-all }
+  .line.add { background: #E2EFDA; color: #375623 }
+  .line.del { background: #FCE4D6; color: #843C0C }
+  .line.opp { background: #f0e6ff; color: #4a0080 }
+  .opp-label { font-size: 11px; font-weight: 700; color: #7B2FBE; padding: 4px 10px; background: #e8d5ff; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px }
+</style>
+</head>
+<body>
+<header>
+  <h1>Competitor ads.txt Monitor</h1>
+  <p>Last updated: 2026-04-08 20:47 UTC &nbsp;·&nbsp; 12 competitors tracked &nbsp;·&nbsp; Checked monthly &nbsp;·&nbsp; <a href="index.html">AMC monitor →</a></p>
+</header>
+<main>
+  <div class="section-title">Click any competitor to see their ads.txt history and sales opportunities</div>
+  <div class="grid">
+        <a href="competitor_disney.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#1a78c2">D</div>
+              <div>
+                <div class="card-title">Disney</div>
+                <div class="card-sub">disney.com/ads.txt</div>
+              </div>
+              <span class="badge error">Error</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_nbcuniversal.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#000000">N</div>
+              <div>
+                <div class="card-title">NBCUniversal</div>
+                <div class="card-sub">nbcuniversal.com/ads.txt</div>
+              </div>
+              <span class="badge error">Error</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_hulu.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#1ce783">H</div>
+              <div>
+                <div class="card-title">Hulu</div>
+                <div class="card-sub">hulu.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_peacock.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#f2a900">P</div>
+              <div>
+                <div class="card-title">Peacock</div>
+                <div class="card-sub">peacocktv.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_paramount.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#0064ff">P</div>
+              <div>
+                <div class="card-title">Paramount</div>
+                <div class="card-sub">paramount.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_discovery.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#003087">D</div>
+              <div>
+                <div class="card-title">Discovery</div>
+                <div class="card-sub">discovery.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_fx.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#cc0000">F</div>
+              <div>
+                <div class="card-title">FX</div>
+                <div class="card-sub">fxnetworks.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_hbo_max.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#002be7">M</div>
+              <div>
+                <div class="card-title">HBO Max</div>
+                <div class="card-sub">max.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_plex.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#e5a00d">P</div>
+              <div>
+                <div class="card-title">Plex</div>
+                <div class="card-sub">plex.tv/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_philo.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#4b0082">P</div>
+              <div>
+                <div class="card-title">Philo</div>
+                <div class="card-sub">philo.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_vizio.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#00a0dc">V</div>
+              <div>
+                <div class="card-title">Vizio</div>
+                <div class="card-sub">vizio.com/ads.txt</div>
+              </div>
+              <span class="badge new">First snapshot</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a>
+        <a href="competitor_spectrum.html" style="text-decoration:none;color:inherit">
+          <div class="card" style="cursor:pointer;transition:border-color 0.15s" onmouseover="this.style.borderColor='#aaa'" onmouseout="this.style.borderColor='#e0e0e0'">
+            <div class="card-head">
+              <div class="logo-circle" style="background:#0099d8">S</div>
+              <div>
+                <div class="card-title">Spectrum</div>
+                <div class="card-sub">spectrum.com/ads.txt</div>
+              </div>
+              <span class="badge error">Error</span>
+            </div>
+            <div class="card-body" style="font-size:12px;color:#888">Last checked: 2026-04-08 20:47 UTC</div>
+          </div>
+        </a></div>
+</main>
+</body>
+</html>
