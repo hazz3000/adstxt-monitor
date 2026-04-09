@@ -69,6 +69,26 @@ def parse_lines(text):
     return lines
 
 
+def parse_partners(text):
+    """Return set of (domain, relationship, section) tuples from ads.txt content."""
+    partners = set()
+    current_section = "(no section)"
+    for line in (text or "").splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith("#"):
+            current_section = s
+            continue
+        parts = [p.strip() for p in s.split(",")]
+        if len(parts) >= 3:
+            domain = parts[0].lower()
+            rel    = parts[2].strip().upper()
+            if rel in ("DIRECT", "RESELLER"):
+                partners.add((domain, rel, current_section))
+    return partners
+
+
 def diff_lines(old_text, new_text):
     old = [l.strip() for l in (old_text or "").splitlines() if l.strip() and not l.strip().startswith("#")]
     new = [l.strip() for l in (new_text or "").splitlines() if l.strip() and not l.strip().startswith("#")]
@@ -90,6 +110,19 @@ def get_amc_lines():
         if "amc.com" in key and val.get("text"):
             amc_lines |= parse_lines(val["text"])
     return amc_lines
+
+
+def parse_partners_from_lines(lines):
+    """Convert a set of raw normalised lines into (domain, rel) tuples (no section context)."""
+    partners = set()
+    for line in lines:
+        parts = [p.strip() for p in line.split(",")]
+        if len(parts) >= 3:
+            domain = parts[0].lower()
+            rel    = parts[2].strip().upper()
+            if rel in ("DIRECT", "RESELLER"):
+                partners.add((domain, rel))
+    return partners
 
 
 # ─────────────────────────────────────────────
@@ -141,11 +174,16 @@ def generate_competitor_page(comp, history, amc_lines, now_str):
     entries = list(reversed(history))
     latest  = entries[0] if entries else None
 
-    # Sales opportunities: lines in latest snapshot not in AMC
-    opps = []
+    # Sales opportunities: demand partners competitor has that AMC does not
+    opp_partners = []
     if latest and latest.get("status") in ("changed", "first_snapshot", "unchanged") and latest.get("text"):
-        comp_lines = parse_lines(latest["text"])
-        opps = sorted(comp_lines - amc_lines)
+        comp_partners = parse_partners(latest["text"])          # (domain, rel, section)
+        amc_partners  = parse_partners_from_lines(amc_lines)   # (domain, rel)
+        # Filter: keep comp entries where (domain, rel) not in AMC
+        opp_partners = sorted(
+            [p for p in comp_partners if (p[0], p[1]) not in amc_partners],
+            key=lambda x: (x[2], x[0], x[1])
+        )
 
     # Build timeline
     timeline_html = ""
@@ -169,17 +207,29 @@ def generate_competitor_page(comp, history, amc_lines, now_str):
 
     # Opportunities section
     opp_html = ""
-    if opps:
-        opp_lines = "".join(f'<div class="line opp">{esc(l)}</div>' for l in opps[:100])
-        more_opp = f'<div class="line opp">… {len(opps)-100} more lines</div>' if len(opps) > 100 else ""
+    if opp_partners:
+        rows = ""
+        prev_section = None
+        for d, rel, section in opp_partners[:150]:
+            if section != prev_section:
+                rows += f'<tr><td colspan="3" style="padding:5px 12px;background:#e8d5ff;color:#4a0080;font-size:11px;font-weight:700">{esc(section)}</td></tr>'
+                prev_section = section
+            rel_badge = f'<span style="background:#E2EFDA;color:#375623;padding:1px 8px;border-radius:10px;font-size:11px;font-weight:600">DIRECT</span>' if rel == "DIRECT" else f'<span style="background:#FCE4D6;color:#843C0C;padding:1px 8px;border-radius:10px;font-size:11px;font-weight:600">RESELLER</span>'
+            rows += f'<tr><td style="padding:6px 12px;font-family:monospace;font-size:12px;border-bottom:1px solid #f0f0f0">{esc(d)}</td><td style="padding:6px 12px;border-bottom:1px solid #f0f0f0">{rel_badge}</td></tr>'
+        more_opp = f'<tr><td colspan="2" style="padding:6px 12px;font-size:12px;color:#999">… {len(opp_partners)-150} more partners</td></tr>' if len(opp_partners) > 150 else ""
         opp_html = f'''
-        <div class="section-title">Sales opportunities — {len(opps)} lines {name} has that AMC does not</div>
+        <div class="section-title">Sales opportunities — {len(opp_partners)} demand partners {name} has that AMC does not</div>
         <div class="card">
           <div class="card-body">
-            <div class="entry opportunity">
-              <div class="entry-meta" style="margin-bottom:8px">These demand partners or lines appear in <strong>{domain}/ads.txt</strong> but not in any AMC ads.txt file. Potential partners to activate.</div>
-              <div class="opp-label">Lines not in AMC</div>
-              <div class="diff">{opp_lines}{more_opp}</div>
+            <div class="entry opportunity" style="padding:0;border:none;background:none">
+              <div style="font-size:13px;color:#555;padding:10px 14px 12px">These demand partners appear in <strong>{domain}/ads.txt</strong> but not in any AMC ads.txt. Potential partners to activate.</div>
+              <table style="width:100%;border-collapse:collapse">
+                <thead><tr style="background:#e8d5ff">
+                  <th style="padding:8px 12px;text-align:left;font-size:12px;color:#4a0080">Demand Partner</th>
+                  <th style="padding:8px 12px;text-align:left;font-size:12px;color:#4a0080">Relationship</th>
+                </tr></thead>
+                <tbody>{rows}{more_opp}</tbody>
+              </table>
             </div>
           </div>
         </div>'''
