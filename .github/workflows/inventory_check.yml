@@ -2,7 +2,7 @@ name: Inventory Partner Domain Check
 
 on:
   schedule:
-    - cron: "0 10 * * 1"   # Every Monday at 10 AM UTC
+    - cron: "0 10 1 * *"   # 10 AM UTC on the 1st of every month
   workflow_dispatch:
 
 permissions:
@@ -29,6 +29,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run inventory check
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
         run: python inventory_check.py
 
       - name: Commit updated files
