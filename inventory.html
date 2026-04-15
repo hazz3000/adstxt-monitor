@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventory Partner Domain Check</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+  body { font-family: Arial, sans-serif; background: #f4f6f9; color: #1a1a2e; font-size: 14px }
+  header { background: #1F3864; color: #fff; padding: 24px 32px }
+  header h1 { font-size: 22px; font-weight: 600; margin-bottom: 4px }
+  header p { color: #BDD7EE; font-size: 13px }
+  header a { color: #BDD7EE }
+  .stats { display: flex; gap: 16px; padding: 20px 32px; background: #fff; border-bottom: 1px solid #e0e0e0; flex-wrap: wrap }
+  .stat { background: #f4f6f9; border-radius: 8px; padding: 12px 20px; min-width: 120px }
+  .stat-val { font-size: 24px; font-weight: 700 }
+  .stat-val.ok { color: #375623 }
+  .stat-val.bad { color: #843C0C }
+  .stat-val.warn { color: #7B6000 }
+  .stat-val.neutral { color: #1F3864 }
+  .stat-lbl { font-size: 12px; color: #666; margin-top: 2px }
+  main { max-width: 1100px; margin: 28px auto; padding: 0 20px 60px }
+  .card { background: #fff; border-radius: 10px; border: 1px solid #e0e0e0; overflow: hidden }
+  table { width: 100%; border-collapse: collapse }
+  thead tr { background: #f0f4fa }
+  th { padding: 10px 16px; text-align: left; font-size: 12px; color: #555; font-weight: 600 }
+  tbody tr:hover { background: #fafbfc }
+  tbody tr + tr td { border-top: 1px solid #f0f0f0 }
+</style>
+</head>
+<body>
+<header>
+  <h1>Inventory Partner Domain Check</h1>
+  <p>Checking for <strong style="color:#fff">inventorypartnerdomain=amc.com</strong> in partner app-ads.txt files &nbsp;·&nbsp; Last checked: 2026-04-15 18:49 UTC &nbsp;·&nbsp; <a href="index.html">AMC monitor →</a></p>
+</header>
+<div class="stats">
+  <div class="stat"><div class="stat-val neutral">8</div><div class="stat-lbl">Partners checked</div></div>
+  <div class="stat"><div class="stat-val ok">6</div><div class="stat-lbl">✓ AMC declared</div></div>
+  <div class="stat"><div class="stat-val bad">2</div><div class="stat-lbl">✗ AMC missing</div></div>
+  <div class="stat"><div class="stat-val warn">0</div><div class="stat-lbl">⚠ Errors</div></div>
+</div>
+<main>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>Partner</th>
+          <th>app-ads.txt URL</th>
+          <th style="text-align:center">Status</th>
+          <th>Detail</th>
+          <th>Last checked</th>
+        </tr>
+      </thead>
+      <tbody><tr >
+          <td style="padding:12px 16px;font-weight:500">DirecTV Stream</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://streamtv.directv.com/app-ads.txt" style="color:#1F3864" target="_blank">streamtv.directv.com/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#E2EFDA;color:#375623;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✓ FOUND</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#375623">inventorypartnerdomain=amc.com present<br><span style="color:#888">Also declares: aetv.com, axs.tv, hallmarkchannel.com, cheddar.com, disney.com, fox.com, nba.com, nbc.com, gameshownetwork.com, univision.com, paramount.com, cwtv.com, mlb.com, nhl.com, tastemade.com, sportsnetla.com, spectrumsportsnet.com, cbs.com, vix.com, wurl.com, yahoo.com, orka.tv, tdn.tv, fuel.tv, powernationtv.com, originsports.com, theacc.com, cineverse.com, fuse.tv, failarmy.tv, thepetcollective.tv, familyhandyman.tv, in.tv, bloomberg.com, gravitasventures.com, playerstv.com, nosey.com, watchdust.com, courttv.com, scrippsnews.com, sbgi.net, fremantle.com, waypointtv.com, actve.tv, blueantmedia.com, big12studios.com, roku.com, foxnews.com, foxweather.com, samsungtvplus.com, www.watchstadium.com, magellantv.com, americastestkitchen.com, questarentertainment.com, c3entertainment.com, curiositystream.com, watchdrool.com, amagi.com, faststudios.com, speedvisionnetwork.com, gogoctv.com, dangertv.com, anthemse.com, gustotv.com, elementaltv.io, tvone.tv, mycleo.tv, cnn.com, tntdrama.com, tbs.com, trutv.com, adultswim.com, naviochannels.com, navio.tv, tripleb.tv, xumo.com, scripps.com, tobamedia.com, openglass.tv, ionic.tv, foxsports.com, si.com, fremantle.com, lgads.tv, marathonventures.com, swerve.tv, jungo.tv, themeateater.com, discoveryplus.com, watch.hgtv.com, investigationdiscovery.com, discoveryplus.com, go.discovery.com, go.tlc.com, watch.foodnetwork.com, animalplanet.com</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr><tr >
+          <td style="padding:12px 16px;font-weight:500">Philo (help)</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://help.philo.com/app-ads.txt" style="color:#1F3864" target="_blank">help.philo.com/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#E2EFDA;color:#375623;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✓ FOUND</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#375623">inventorypartnerdomain=amc.com present<br><span style="color:#888">Also declares: vizio.com, aetv.com, cineverse.com, watch.hgtv.com, investigationdiscovery.com, discoveryplus.com, go.discovery.com, go.tlc.com, watch.foodnetwork.com, animalplanet.com, sciencechannel.com, travelchannel.com, fremantle.com, outsideonline.com, pocket.watch, tastemade.com, failarmy.tv, thepetcollective.tv, weatherspy.tv, familyhandyman.tv, peopleareawesome.tv, tvone.tv, mycleo.tv, vevo.com, paramount.com, roku.com, samsungtvplus.com, hartbeat.com</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr><tr >
+          <td style="padding:12px 16px;font-weight:500">Philo</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://philo.com/app-ads.txt" style="color:#1F3864" target="_blank">philo.com/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#E2EFDA;color:#375623;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✓ FOUND</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#375623">inventorypartnerdomain=amc.com present<br><span style="color:#888">Also declares: vizio.com, aetv.com, cineverse.com, watch.hgtv.com, investigationdiscovery.com, discoveryplus.com, go.discovery.com, go.tlc.com, watch.foodnetwork.com, animalplanet.com, sciencechannel.com, travelchannel.com, fremantle.com, outsideonline.com, pocket.watch, tastemade.com, failarmy.tv, thepetcollective.tv, weatherspy.tv, familyhandyman.tv, peopleareawesome.tv, tvone.tv, mycleo.tv, vevo.com, paramount.com, roku.com, samsungtvplus.com, hartbeat.com</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr><tr >
+          <td style="padding:12px 16px;font-weight:500">AdGRX TV Plus</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://tvplus.adgrx.com/app-ads.txt" style="color:#1F3864" target="_blank">tvplus.adgrx.com/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#E2EFDA;color:#375623;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✓ FOUND</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#375623">inventorypartnerdomain=amc.com present<br><span style="color:#888">Also declares: failarmy.tv, thepetcollective.tv, peopleareawesome.tv, weatherspy.tv, its-newid.net, rakuten.tv, gravitasventures.com, worldpokertour.tv, tripleb.tv, pocket.watch, fuel.tv, docplus.com, watchdust.com, crackle.com, pluto.tv, courttv.com, funkedigital.de, bouncetv.com, iontelevision.com, courttv.com, chili.com, dangertv.com, moonbug.com, xite.com, filmzie.com, vix.com, littledotstudios.com, www.ducktv.tv, gustotv.com, unbeaten.com, cnn.com, qwest.tv, lovetvchannels.com, space-mob.com, scrippsnews.com, stormcastcinema.com, wildearth.tv, nosey.com, speedvisionnetwork.com, estrellatv.com, aetv.com, darkmattertv.com, italianfishingtv.it, tastemade.com, nbc.com, cgtv.it, sportitalia.com, nexodigital.it, draftkings.com, wedotv.com, evrideo.com, gray.tv, thechannelstore.tv, fuse.tv, fubo.tv, my-cast.tv, bold-win.com, tvcoins.com, autentic.com, weatherspy.tv, familyhandyman.tv, imagentv.com, theweathernetwork.com, yahoo.com, cheddar.com, foxlocal.com, cineverse.com, c15.studio, bfmtv.com, outsideonline.com, outsidetv.com, bloomberg.com, mvstv.com, hcodemedia.com, spanglishmovies.com, sbgi.net, mvod.co.uk, vod365.co.uk, exa.tv, usatoday.com, morethansports.tv, tvaztecainternacional.com, brintv.com.br, canela.tv, smurf.com, ducktv.tv, motorvision.tv, recordnews.com.br, runtime.tv, sato.tv.br, turistiktv.com.mx, ubisoftbrasil.tv, narrative.com, ionplustv.com, ionmystery.com, grittv.com, laff.com, rmcbfm-ads.com, toongoggles.com, adnetplus.tv, multimediostv.com, foxnews.com, foxweather.com, offgridcreativecontent.com, futuretodayinc.com, weathernationtv.com, americasvoice.news, watchstadium.com, amagi.com, addigital.com.br, bbc.com, aparentmedia.com, safex.tv, la.sonychannel.com, twist.win, outdooramerica.com, news12.com, faststudios.com, sonychannel.com, revry.tv, fremantle.com, banijayrights.com, janson.com, pursuituptv.com, serially.it, hasbro.com, senseof.media, freetv.com, 365hub.tv, blueantmedia.com, journy.tv, anthemse.com, smartadserver.com, ladbible.com, nexostudios.it, pmldigital.com, aniview.com, theaccdn.com, big12studios.com, paramount.com, videoelephant.tv, ctvnews.ca, ctv.ca, noovo.ca, tsn.ca, scripps.com, wildbrain.com, unifastmedia.com, vevo.com, zee5.com, kartoonchannel.com, elementaltv.io, ionic.tv, fastchannels.tv, tobamedia.com, hartbeat.com, diversitymediasales.com, americastestkitchen.com, themeateater.com, interactivems.net, yourchannels.tv, versantmedia.com, sport1.de, show1.tv, rai.it, hallmarkchannel.com</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr><tr >
+          <td style="padding:12px 16px;font-weight:500">Tablo TV</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://tablotv.com/app-ads.txt" style="color:#1F3864" target="_blank">tablotv.com/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#E2EFDA;color:#375623;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✓ FOUND</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#375623">inventorypartnerdomain=amc.com present<br><span style="color:#888">Also declares: 365fitnesshub.tv, actve.tv, amagi.com, cineverse.com, elementaltv.io, fanserv.com, gustotv.com, mediafuse.com, mpwdigital.com, roku.com, scripps.com, scrippsnews.com, shout-tv.com, space-mob.com, vizio.com, wecallmedia.com, wurl.com, xumo.com, cnnnewsource.com, wurl.com, elementaltv.io</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr><tr style="background:#fffafa">
+          <td style="padding:12px 16px;font-weight:500">Charter</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://charter.net/app-ads.txt" style="color:#1F3864" target="_blank">charter.net/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#FCE4D6;color:#843C0C;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✗ MISSING</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#843C0C">inventorypartnerdomain=amc.com NOT found<br><span style="color:#888">Declares: spectrum.com</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr><tr >
+          <td style="padding:12px 16px;font-weight:500">Sling</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://sling.com/app-ads.txt" style="color:#1F3864" target="_blank">sling.com/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#E2EFDA;color:#375623;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✓ FOUND</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#375623">inventorypartnerdomain=amc.com present<br><span style="color:#888">Also declares: versantmedia.com, fox.com, gustotv.com, adultswim.com, tntdrama.com, tbs.com, trutv.com, watch.hgtv.com, investigationdiscovery.com, discoveryplus.com, go.discovery.com, go.tlc.com, watch.foodnetwork.com, hbomax.com, discoveryplus.com, americastestkitchen.com, cineverse.com, creatortelevision.com, openglass.tv, aetv.com, estrellatv.com, stash.tv, failarmy.tv, thepetcollective.tv, localnow.com, pocket.watch, space-mob.com, tastemade.com, streamstak.com, newsy.com, vix.com, paramount.com, wedotv.com, darkmattertv.com, cheddar.com, vevo.com, foxlocal.com, cineverse.com, pluto.tv, wurl.com, fremantle.com, canela.tv, scrippsnews.com, videoelephant.tv, nglcollective.com, roku.com, foxnews.com, foxweather.com, samsungtvplus.com, c15.studio, tripleb.tv, oann.com, awetv.com, lgads.tv, lgchannels.com, ondemandkorea.com, vizio.com, bloomberg.com, 365hub.tv, hcodemedia.com, creatortelevision.com, wildbrain.com, tvone.tv, mycleo.tv, scripps.com, nbc.com</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr><tr style="background:#fffafa">
+          <td style="padding:12px 16px;font-weight:500">Spectrum</td>
+          <td style="padding:12px 16px;font-family:monospace;font-size:12px;color:#555"><a href="https://spectrum.net/app-ads.txt" style="color:#1F3864" target="_blank">spectrum.net/app-ads.txt</a></td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#FCE4D6;color:#843C0C;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600">✗ MISSING</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#843C0C">inventorypartnerdomain=amc.com NOT found<br><span style="color:#888">Declares: spectrum.com</span></td>
+          <td style="padding:12px 16px;font-size:12px;color:#999">2026-04-15 18:49 UTC</td>
+        </tr></tbody>
+    </table>
+  </div>
+</main>
+</body>
+</html>
