@@ -385,7 +385,7 @@ def generate_html(changelog, now_str):
 <body>
 <header>
   <h1>ads.txt Monitor</h1>
-  <p>Last updated: {now_str} &nbsp;·&nbsp; Tracking {len(FILES)} files across {len(PARTNERS)} partners &nbsp;·&nbsp; <a href="competitors.html" style="color:#BDD7EE">Competitor Monitor →</a></p>
+  <p>Last updated: {now_str} &nbsp;·&nbsp; Tracking {len(FILES)} files across {len(PARTNERS)} partners &nbsp;·&nbsp; <a href="competitors.html" style="color:#BDD7EE">Competitor Monitor →</a> &nbsp;·&nbsp; <a href="inventory.html" style="color:#BDD7EE">Inventory Check →</a></p>
 </header>
 <div class="stats">
   <div class="stat"><div class="stat-val">{len(PARTNERS)}</div><div class="stat-lbl">Partners</div></div>
