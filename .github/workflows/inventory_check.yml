@@ -1,0 +1,49 @@
+name: Inventory Partner Domain Check
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"   # Every Monday at 10 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  inventory-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run inventory check
+        run: python inventory_check.py
+
+      - name: Commit updated files
+        run: |
+          git config user.name  "Inventory Check"
+          git config user.email "monitor@github-actions"
+          git add inventory_snapshots.json inventory.html
+          git diff --cached --quiet || git commit -m "chore: inventory partner check $(date -u +'%Y-%m-%d')"
+          git pull --rebase origin main
+          git push
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
