@@ -14,6 +14,13 @@ PARTNERS = [
     {"name": "Charter",         "url": "https://charter.net/app-ads.txt"},
     {"name": "Sling",           "url": "https://sling.com/app-ads.txt"},
     {"name": "Spectrum",        "url": "https://spectrum.net/app-ads.txt"},
+    {"name": "Paramount Ad Platform", "url": "https://adplatforms.paramount.com/app-ads.txt"},
+    {"name": "Xfinity",           "url": "https://www.xfinity.com/app-ads.txt"},
+    {"name": "TCL",               "url": "https://www.tcl.com/ads.txt"},
+    {"name": "Sling",             "url": "https://www.sling.com/ads.txt"},
+    {"name": "Plex",              "url": "https://plex.tv/ads.txt"},
+    {"name": "Vizio Ad Platform", "url": "https://ad.platform.vizio.com/ads.txt"},
+    {"name": "Pluto TV",          "url": "https://prd.pluto.tv/app-ads.txt"},
 ]
 
 REQUIRED_LINE = "inventorypartnerdomain=amc.com"
