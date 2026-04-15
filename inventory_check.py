@@ -1,4 +1,6 @@
-import os, json, requests, datetime
+import os, json, requests, datetime, smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 # ─────────────────────────────────────────────────────────────
 # Add or remove partner domains here
@@ -17,6 +19,9 @@ PARTNERS = [
 REQUIRED_LINE = "inventorypartnerdomain=amc.com"
 SNAPSHOTS_FILE = "inventory_snapshots.json"
 HTML_FILE = "inventory.html"
+GMAIL_USER         = os.environ.get("GMAIL_USER", "")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
+NOTIFY_EMAIL       = os.environ.get("NOTIFY_EMAIL", "")
 
 
 def fetch(url):
@@ -158,6 +163,63 @@ def generate_html(results, now_str):
         f.write(html)
 
 
+def send_email(results, now_str):
+    ok_count      = sum(1 for r in results if r["has_amc"])
+    missing_count = sum(1 for r in results if r["ok"] and not r["has_amc"])
+    error_count   = sum(1 for r in results if not r["ok"])
+
+    def badge(text, color, bg):
+        return f'<span style="background:{bg};color:{color};padding:2px 8px;border-radius:12px;font-size:12px;font-weight:600">{text}</span>'
+
+    rows = ""
+    for r in results:
+        if not r["ok"]:
+            status = badge("ERROR", "#7B6000", "#FFF2CC")
+            detail = esc(r.get("error", ""))
+        elif r["has_amc"]:
+            status = badge("✓ FOUND", "#375623", "#E2EFDA")
+            others = [v for v in r["all_partners"] if v != "amc.com"]
+            detail = "inventorypartnerdomain=amc.com present" + (f' &nbsp;·&nbsp; <span style="color:#888">Also: {", ".join(others)}</span>' if others else "")
+        else:
+            status = badge("✗ MISSING", "#843C0C", "#FCE4D6")
+            others = r["all_partners"]
+            detail = "inventorypartnerdomain=amc.com NOT found" + (f' &nbsp;·&nbsp; <span style="color:#888">Declares: {", ".join(others)}</span>' if others else " &nbsp;·&nbsp; <span style=\"color:#888\">No inventorypartnerdomain lines found</span>")
+        rows += (f'<tr><td style="padding:10px 12px;font-weight:500">{esc(r["name"])}</td>'
+                 f'<td style="padding:10px 12px;font-family:monospace;font-size:11px;color:#555">{esc(r["url"].replace("https://",""))}</td>'
+                 f'<td style="padding:10px 12px;text-align:center">{status}</td>'
+                 f'<td style="padding:10px 12px;font-size:12px;color:#555">{detail}</td></tr>')
+
+    subject_tag = f"✗ {missing_count} missing" if missing_count else ("⚠ errors" if error_count else "✓ all clear")
+    subject = f"[Inventory Check] {subject_tag} — {now_str}"
+
+    html = (f'<!DOCTYPE html><html><head><meta charset="utf-8"></head>'
+            f'<body style="font-family:Arial,sans-serif;background:#f5f5f5;margin:0;padding:20px">'
+            f'<div style="max-width:800px;margin:auto;background:#fff;border-radius:8px;overflow:hidden;border:1px solid #ddd">'
+            f'<div style="background:#1F3864;padding:20px 24px">'
+            f'<h1 style="color:#fff;margin:0;font-size:18px">Inventory Partner Domain Check</h1>'
+            f'<p style="color:#BDD7EE;margin:6px 0 0;font-size:13px">{now_str} &nbsp;·&nbsp; {ok_count} found &nbsp;·&nbsp; {missing_count} missing &nbsp;·&nbsp; {error_count} errors</p></div>'
+            f'<table style="width:100%;border-collapse:collapse">'
+            f'<thead><tr style="background:#F2F2F2;font-size:12px;color:#555">'
+            f'<th style="padding:10px 12px;text-align:left">Partner</th>'
+            f'<th style="padding:10px 12px;text-align:left">URL</th>'
+            f'<th style="padding:10px 12px">Status</th>'
+            f'<th style="padding:10px 12px;text-align:left">Detail</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table>'
+            f'<div style="padding:16px 24px;font-size:12px;color:#888;border-top:1px solid #eee">'
+            f'View full page: https://hazz3000.github.io/adstxt-monitor/inventory.html'
+            f'</div></div></body></html>')
+
+    msg = MIMEMultipart("mixed")
+    msg["From"]    = GMAIL_USER
+    msg["To"]      = NOTIFY_EMAIL
+    msg["Subject"] = subject
+    msg.attach(MIMEText(html, "html"))
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
+        server.sendmail(GMAIL_USER, NOTIFY_EMAIL, msg.as_string())
+
+
 def main():
     now_str = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     snapshots = load_snapshots()
@@ -200,6 +262,12 @@ def main():
             print(f"  - {r['name']} ({r['url']})")
     else:
         print("\n✓ All reachable partners correctly declare inventorypartnerdomain=amc.com")
+
+    if GMAIL_USER and NOTIFY_EMAIL:
+        send_email(results, now_str)
+        print(f"Email sent -> {NOTIFY_EMAIL}")
+    else:
+        print("Email skipped (GMAIL_USER or NOTIFY_EMAIL not set)")
 
 
 if __name__ == "__main__":
