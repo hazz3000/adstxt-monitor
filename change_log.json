@@ -187,6 +187,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1127
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1140
     }
   ],
   "amc.com/app-ads.txt": [
@@ -377,6 +421,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1040
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1054
     }
   ],
   "bbca.com/ads.txt": [
@@ -567,6 +655,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1127
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1140
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -757,6 +889,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1040
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1054
     }
   ],
   "ifc.com/ads.txt": [
@@ -947,6 +1123,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1127
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1140
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -1137,6 +1357,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1040
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1054
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -1327,6 +1591,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1127
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1140
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -1629,6 +1937,11 @@
         }
       ],
       "lines": 19
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "unchanged",
+      "lines": 19
     }
   ],
   "wetv.com/ads.txt": [
@@ -1819,6 +2132,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1127
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1140
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -2009,6 +2366,50 @@
       "date": "2026-04-23 10:22 UTC",
       "status": "unchanged",
       "lines": 1040
+    },
+    {
+      "date": "2026-04-24 10:23 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "wurl.com, 55562, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 543709, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, sg1303005, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-523319, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "freewheel.tv, 543709-r-524565, RESELLER",
+          "section": "#PrismRiot"
+        },
+        {
+          "line": "pubmatic.com, 167424, RESELLER, 5d62403b186f2ace",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "olyzon.tv, 76794, PUBLISHER",
+          "section": "#Olyzon"
+        },
+        {
+          "line": "lkqd.net, 1100060088, RESELLER 59c49fa9598a0117",
+          "section": "#Nexxen"
+        },
+        {
+          "line": "Infolinks.com, 3444795, DIRECT",
+          "section": "#Infolinks"
+        }
+      ],
+      "removed": [],
+      "lines": 1054
     }
   ]
 }
