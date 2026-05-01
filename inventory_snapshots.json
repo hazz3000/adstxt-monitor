@@ -103,7 +103,7 @@
       "watch.foodnetwork.com",
       "animalplanet.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://help.philo.com/app-ads.txt": {
     "name": "Philo (help)",
@@ -125,6 +125,7 @@
       "sciencechannel.com",
       "travelchannel.com",
       "fremantle.com",
+      "fuse.tv",
       "outsideonline.com",
       "pocket.watch",
       "tastemade.com",
@@ -141,7 +142,7 @@
       "samsungtvplus.com",
       "hartbeat.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://philo.com/app-ads.txt": {
     "name": "Philo",
@@ -163,6 +164,7 @@
       "sciencechannel.com",
       "travelchannel.com",
       "fremantle.com",
+      "fuse.tv",
       "outsideonline.com",
       "pocket.watch",
       "tastemade.com",
@@ -179,7 +181,7 @@
       "samsungtvplus.com",
       "hartbeat.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://tvplus.adgrx.com/app-ads.txt": {
     "name": "AdGRX TV Plus",
@@ -266,7 +268,6 @@
       "sbgi.net",
       "mvod.co.uk",
       "vod365.co.uk",
-      "exa.tv",
       "usatoday.com",
       "morethansports.tv",
       "tvaztecainternacional.com",
@@ -352,10 +353,12 @@
       "versantmedia.com",
       "sport1.de",
       "show1.tv",
-      "rai.it",
-      "hallmarkchannel.com"
+      "raicom.rai.it",
+      "hallmarkchannel.com",
+      "dazn.com",
+      "3bmeteo.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://tablotv.com/app-ads.txt": {
     "name": "Tablo TV",
@@ -386,7 +389,7 @@
       "wurl.com",
       "elementaltv.io"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://charter.net/app-ads.txt": {
     "name": "Charter",
@@ -396,7 +399,7 @@
     "all_partners": [
       "spectrum.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://sling.com/app-ads.txt": {
     "name": "Sling",
@@ -472,7 +475,7 @@
       "scripps.com",
       "nbc.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://spectrum.net/app-ads.txt": {
     "name": "Spectrum",
@@ -482,7 +485,7 @@
     "all_partners": [
       "spectrum.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://adplatforms.paramount.com/app-ads.txt": {
     "name": "Paramount Ad Platform",
@@ -541,6 +544,7 @@
       "prismriotads.com",
       "roku.com",
       "samsungtvplus.com",
+      "sciencechannel.com",
       "scripps.com",
       "scrippsnews.com",
       "shout-tv.com",
@@ -555,6 +559,7 @@
       "thepetcollective.tv",
       "tivo.com",
       "tntdrama.com",
+      "travelchannel.com",
       "trutv.com",
       "tyt.com",
       "versantmedia.com",
@@ -583,7 +588,7 @@
       "viaplay.com",
       "xapads.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://www.xfinity.com/app-ads.txt": {
     "name": "Xfinity",
@@ -615,7 +620,7 @@
       "xumo.com",
       "roku.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://www.tcl.com/ads.txt": {
     "name": "TCL",
@@ -732,7 +737,7 @@
       "questarentertainment.com",
       "video.blackgoldmediapartners.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://www.sling.com/ads.txt": {
     "name": "Sling",
@@ -808,7 +813,7 @@
       "scripps.com",
       "nbc.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://plex.tv/ads.txt": {
     "name": "Plex",
@@ -817,6 +822,7 @@
     "has_amc": true,
     "all_partners": [
       "banijayrights.com",
+      "hallmarkchannel.com",
       "navio.tv",
       "openglass.tv",
       "wildearth.tv",
@@ -966,7 +972,7 @@
       "lgchannels.com",
       "qwest.tv"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://ad.platform.vizio.com/ads.txt": {
     "name": "Vizio Ad Platform",
@@ -1073,7 +1079,7 @@
       "fuse.tv",
       "nuba.io"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   },
   "https://prd.pluto.tv/app-ads.txt": {
     "name": "Pluto TV",
@@ -1118,6 +1124,6 @@
       "wurl.com",
       "iontelevision.com"
     ],
-    "checked_at": "2026-04-15 19:04 UTC"
+    "checked_at": "2026-05-01 11:09 UTC"
   }
 }
