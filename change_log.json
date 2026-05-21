@@ -372,6 +372,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1142
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1148
     }
   ],
   "amc.com/app-ads.txt": [
@@ -747,6 +779,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1056
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1062
     }
   ],
   "bbca.com/ads.txt": [
@@ -1122,6 +1186,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1142
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1148
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -1497,6 +1593,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1056
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1062
     }
   ],
   "ifc.com/ads.txt": [
@@ -1872,6 +2000,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1142
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1148
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -2247,6 +2407,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1056
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1062
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -2622,6 +2814,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1142
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1148
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -3263,6 +3487,23 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 19
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.cf74f9511a2f14918305.js\"></script><script defer=\"defer\" src=\"/code/js/7350.b3bc42f9782366b4a369.js\"></script><script defer=\"defer\" src=\"/code/js/8287.0ba943154ca536a45aba.js\"></script><script defer=\"defer\" src=\"/code/js/8173.6f1ef8dd8d9235a278ad.js\"></script><script defer=\"defer\" src=\"/code/js/257.1fb5b028bc284f5b82cf.js\"></script><script defer=\"defer\" src=\"/code/js/7345.050cb33f285398d0fb3e.js\"></script><script defer=\"defer\" src=\"/code/js/4366.4ef84af9236589d9b57f.js\"></script><script defer=\"defer\" src=\"/code/js/6406.665a8dfa91838b83dbb0.js\"></script><script defer=\"defer\" src=\"/code/js/1694.711f019df493afab78f0.js\"></script><script defer=\"defer\" src=\"/code/js/app.434aaba86b25a73d6a00.js\"></script><link href=\"/style/css/257.ca80321498efda8a07d3.css\" rel=\"stylesheet\"><link href=\"/style/css/1694.ccb7210da63f32716f75.css\" rel=\"stylesheet\"><link href=\"/style/css/app.68569ed74203d54e3508.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.cf74f9511a2f14918305.js\"></script><script defer=\"defer\" src=\"/code/js/7350.b3bc42f9782366b4a369.js\"></script><script defer=\"defer\" src=\"/code/js/8287.0ba943154ca536a45aba.js\"></script><script defer=\"defer\" src=\"/code/js/8173.6f1ef8dd8d9235a278ad.js\"></script><script defer=\"defer\" src=\"/code/js/257.1fb5b028bc284f5b82cf.js\"></script><script defer=\"defer\" src=\"/code/js/7345.aca7fbefb7eb135e1f3d.js\"></script><script defer=\"defer\" src=\"/code/js/4366.4ef84af9236589d9b57f.js\"></script><script defer=\"defer\" src=\"/code/js/6406.665a8dfa91838b83dbb0.js\"></script><script defer=\"defer\" src=\"/code/js/1694.711f019df493afab78f0.js\"></script><script defer=\"defer\" src=\"/code/js/app.184e39e78fa1a338db4d.js\"></script><link href=\"/style/css/257.ca80321498efda8a07d3.css\" rel=\"stylesheet\"><link href=\"/style/css/1694.ccb7210da63f32716f75.css\" rel=\"stylesheet\"><link href=\"/style/css/app.68569ed74203d54e3508.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 19
     }
   ],
   "wetv.com/ads.txt": [
@@ -3638,6 +3879,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1142
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1148
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -4013,6 +4286,38 @@
       "date": "2026-05-20 11:49 UTC",
       "status": "unchanged",
       "lines": 1056
+    },
+    {
+      "date": "2026-05-21 12:15 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "triplelift.com, 13152, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "triplelift.com, 13152-EB, RESELLER, 6c33edb13117fd86",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "lemmatechnologies.com, 2421, DIRECT, 7829010c5bebd1fb",
+          "section": "#Xapads"
+        },
+        {
+          "line": "boldcollective.co, 774398, RESELLER",
+          "section": "#Xapads"
+        },
+        {
+          "line": "sharethrough.com, 5855, RESELLER, d53b998a7bd4ecd3",
+          "section": "#Xapads"
+        },
+        {
+          "line": "triplelift.com, 14703, RESELLER, 6c33edb13117fd86",
+          "section": "#Xapads"
+        }
+      ],
+      "removed": [],
+      "lines": 1062
     }
   ]
 }
