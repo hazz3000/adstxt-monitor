@@ -439,6 +439,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1148
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1189
     }
   ],
   "amc.com/app-ads.txt": [
@@ -881,6 +1025,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1062
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1103
     }
   ],
   "bbca.com/ads.txt": [
@@ -1323,6 +1611,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1148
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1189
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -1765,6 +2197,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1062
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1103
     }
   ],
   "ifc.com/ads.txt": [
@@ -2207,6 +2783,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1148
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1189
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -2649,6 +3369,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1062
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1103
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -3091,6 +3955,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1148
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1189
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -3844,6 +4852,23 @@
         }
       ],
       "lines": 19
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.cf74f9511a2f14918305.js\"></script><script defer=\"defer\" src=\"/code/js/7350.b3bc42f9782366b4a369.js\"></script><script defer=\"defer\" src=\"/code/js/8287.0ba943154ca536a45aba.js\"></script><script defer=\"defer\" src=\"/code/js/8173.6f1ef8dd8d9235a278ad.js\"></script><script defer=\"defer\" src=\"/code/js/2331.2089381f4334adfb64dc.js\"></script><script defer=\"defer\" src=\"/code/js/7345.fb6519e99f352c540ea9.js\"></script><script defer=\"defer\" src=\"/code/js/4366.4ef84af9236589d9b57f.js\"></script><script defer=\"defer\" src=\"/code/js/6406.8f5d94f112cd8efdb6b9.js\"></script><script defer=\"defer\" src=\"/code/js/8830.8b96a341d1d227a39ef4.js\"></script><script defer=\"defer\" src=\"/code/js/app.3571122d0e628a0190e4.js\"></script><link href=\"/style/css/2331.9d4787090d72b70ad27f.css\" rel=\"stylesheet\"><link href=\"/style/css/8830.4d40243063cd2b940dc2.css\" rel=\"stylesheet\"><link href=\"/style/css/app.68569ed74203d54e3508.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.cf74f9511a2f14918305.js\"></script><script defer=\"defer\" src=\"/code/js/7350.b3bc42f9782366b4a369.js\"></script><script defer=\"defer\" src=\"/code/js/8287.0ba943154ca536a45aba.js\"></script><script defer=\"defer\" src=\"/code/js/8173.6f1ef8dd8d9235a278ad.js\"></script><script defer=\"defer\" src=\"/code/js/2331.2089381f4334adfb64dc.js\"></script><script defer=\"defer\" src=\"/code/js/7345.fb6519e99f352c540ea9.js\"></script><script defer=\"defer\" src=\"/code/js/4366.4ef84af9236589d9b57f.js\"></script><script defer=\"defer\" src=\"/code/js/6406.8f5d94f112cd8efdb6b9.js\"></script><script defer=\"defer\" src=\"/code/js/8830.8b96a341d1d227a39ef4.js\"></script><script defer=\"defer\" src=\"/code/js/app.dab3471e8a96dc86b9f5.js\"></script><link href=\"/style/css/2331.9d4787090d72b70ad27f.css\" rel=\"stylesheet\"><link href=\"/style/css/8830.4d40243063cd2b940dc2.css\" rel=\"stylesheet\"><link href=\"/style/css/app.68569ed74203d54e3508.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 19
     }
   ],
   "wetv.com/ads.txt": [
@@ -4286,6 +5311,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1148
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1189
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -4728,6 +5897,150 @@
       "date": "2026-05-29 12:16 UTC",
       "status": "unchanged",
       "lines": 1062
+    },
+    {
+      "date": "2026-05-30 10:47 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "krushmedia.com, AJxF6R612a9M6CaTvK, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, sg1256491, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "freewheel.tv, 534465-r-523319, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "conversantmedia.com, 41784, RESELLER, 03113cd04947736d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4478, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 2736329702851206590, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "connatix.com, 655569151931372, DIRECT, 2af98acdee0e81ed",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "wavefront.tv, 54409, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartadserver.com, 4579, RESELLER, 060d053dcf45cbf3",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "inmobi.com,758e432765224cf2852ed7e0ff5b35e7,RESELLER,83e75a7ae333ca9d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zetaglobal.net, 903, DIRECT",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 245697, RESELLER, fafdf38b16bf6b2b",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Media.net, 8CUT87EOU, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "zmaticoo.com, 5135803, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 9085206363819624071, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "lijit.com, 569110, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "supply.colossusssp.com, 610, RESELLER, 6c5b49d96ec1b458",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "Added.tv, 9b602b2c, RESELLER",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smartyads.com, 1156, RESELLER, fd2bde0ff2e62c5d",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "sharethrough.com, j0nru1gr, RESELLER, d53b998a7bd4ecd2",
+          "section": "#KrushMedia"
+        },
+        {
+          "line": "smoot.ai , 100260, DIRECT",
+          "section": "#Smoot"
+        },
+        {
+          "line": "smoot.ai , 100260, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "zmaticoo.com, 5135884, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "improvedigital.com, 2570, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163797, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "pubmatic.com, 163799, RESELLER, 5d62403b186f2ace",
+          "section": "#Smoot"
+        },
+        {
+          "line": "lijit.com, 497492, RESELLER, fafdf38b16bf6b2b #SOVRN",
+          "section": "#Smoot"
+        },
+        {
+          "line": "showheroes.com, 7405, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "x.adprime.com, AJxF6R92a9M6CaTvK, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "voisetech.com, 1315, RESELLER, 9009ef0379162448",
+          "section": "#Smoot"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "C360.com, 4175, DIRECT",
+          "section": "#C360"
+        },
+        {
+          "line": "voisetech.com, 1341, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0",
+          "section": "#VoiseTech"
+        }
+      ],
+      "removed": [],
+      "lines": 1103
     }
   ]
 }
