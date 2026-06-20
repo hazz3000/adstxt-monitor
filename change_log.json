@@ -1002,6 +1002,11 @@
       ],
       "removed": [],
       "lines": 1269
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "amc.com/app-ads.txt": [
@@ -2006,6 +2011,11 @@
         }
       ],
       "removed": [],
+      "lines": 1182
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
       "lines": 1182
     }
   ],
@@ -3012,6 +3022,11 @@
       ],
       "removed": [],
       "lines": 1269
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -4016,6 +4031,11 @@
         }
       ],
       "removed": [],
+      "lines": 1182
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
       "lines": 1182
     }
   ],
@@ -5022,6 +5042,11 @@
       ],
       "removed": [],
       "lines": 1269
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -6027,6 +6052,11 @@
       ],
       "removed": [],
       "lines": 1182
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
+      "lines": 1182
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -7031,6 +7061,11 @@
         }
       ],
       "removed": [],
+      "lines": 1269
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
       "lines": 1269
     }
   ],
@@ -8070,6 +8105,11 @@
         }
       ],
       "lines": 19
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
+      "lines": 19
     }
   ],
   "wetv.com/ads.txt": [
@@ -9075,6 +9115,11 @@
       ],
       "removed": [],
       "lines": 1269
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -10079,6 +10124,11 @@
         }
       ],
       "removed": [],
+      "lines": 1182
+    },
+    {
+      "date": "2026-06-20 11:20 UTC",
+      "status": "unchanged",
       "lines": 1182
     }
   ]
