@@ -2,110 +2,11 @@
   "https://streamtv.directv.com/app-ads.txt": {
     "name": "DirecTV Stream",
     "url": "https://streamtv.directv.com/app-ads.txt",
-    "ok": true,
-    "has_amc": true,
-    "all_partners": [
-      "aetv.com",
-      "amc.com",
-      "axs.tv",
-      "hallmarkchannel.com",
-      "cheddar.com",
-      "disney.com",
-      "fox.com",
-      "nba.com",
-      "nbc.com",
-      "gameshownetwork.com",
-      "univision.com",
-      "paramount.com",
-      "cwtv.com",
-      "mlb.com",
-      "nhl.com",
-      "tastemade.com",
-      "sportsnetla.com",
-      "spectrumsportsnet.com",
-      "cbs.com",
-      "vix.com",
-      "wurl.com",
-      "yahoo.com",
-      "orka.tv",
-      "tdn.tv",
-      "fuel.tv",
-      "powernationtv.com",
-      "originsports.com",
-      "theacc.com",
-      "cineverse.com",
-      "fuse.tv",
-      "failarmy.tv",
-      "thepetcollective.tv",
-      "familyhandyman.tv",
-      "in.tv",
-      "bloomberg.com",
-      "gravitasventures.com",
-      "playerstv.com",
-      "nosey.com",
-      "watchdust.com",
-      "courttv.com",
-      "scrippsnews.com",
-      "sbgi.net",
-      "fremantle.com",
-      "waypointtv.com",
-      "actve.tv",
-      "blueantmedia.com",
-      "big12studios.com",
-      "roku.com",
-      "foxnews.com",
-      "foxweather.com",
-      "samsungtvplus.com",
-      "www.watchstadium.com",
-      "magellantv.com",
-      "americastestkitchen.com",
-      "questarentertainment.com",
-      "c3entertainment.com",
-      "curiositystream.com",
-      "watchdrool.com",
-      "amagi.com",
-      "faststudios.com",
-      "speedvisionnetwork.com",
-      "gogoctv.com",
-      "dangertv.com",
-      "anthemse.com",
-      "gustotv.com",
-      "elementaltv.io",
-      "tvone.tv",
-      "mycleo.tv",
-      "cnn.com",
-      "tntdrama.com",
-      "tbs.com",
-      "trutv.com",
-      "adultswim.com",
-      "naviochannels.com",
-      "navio.tv",
-      "tripleb.tv",
-      "xumo.com",
-      "scripps.com",
-      "tobamedia.com",
-      "openglass.tv",
-      "ionic.tv",
-      "foxsports.com",
-      "si.com",
-      "fremantle.com",
-      "lgads.tv",
-      "marathonventures.com",
-      "swerve.tv",
-      "jungo.tv",
-      "themeateater.com",
-      "discoveryplus.com",
-      "watch.hgtv.com",
-      "investigationdiscovery.com",
-      "discoveryplus.com",
-      "go.discovery.com",
-      "go.tlc.com",
-      "watch.foodnetwork.com",
-      "animalplanet.com",
-      "adnetplus.tv",
-      "vix.com"
-    ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "ok": false,
+    "has_amc": false,
+    "error": "404 Client Error: Not Found for url: https://streamtv.directv.com/app-ads.txt",
+    "all_partners": [],
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://help.philo.com/app-ads.txt": {
     "name": "Philo (help)",
@@ -144,7 +45,7 @@
       "samsungtvplus.com",
       "hartbeat.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://philo.com/app-ads.txt": {
     "name": "Philo",
@@ -183,7 +84,7 @@
       "samsungtvplus.com",
       "hartbeat.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://tvplus.adgrx.com/app-ads.txt": {
     "name": "AdGRX TV Plus",
@@ -319,7 +220,6 @@
       "hasbro.com",
       "senseof.media",
       "freetv.com",
-      "365hub.tv",
       "blueantmedia.com",
       "journy.tv",
       "anthemse.com",
@@ -366,9 +266,11 @@
       "tunein.com",
       "stingray.com",
       "ad360.live",
-      "latinxctv.com"
+      "latinxctv.com",
+      "leadstory.com",
+      "tennischannel.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://tablotv.com/app-ads.txt": {
     "name": "Tablo TV",
@@ -399,7 +301,7 @@
       "wurl.com",
       "elementaltv.io"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://charter.net/app-ads.txt": {
     "name": "Charter",
@@ -409,7 +311,7 @@
     "all_partners": [
       "spectrum.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://sling.com/app-ads.txt": {
     "name": "Sling",
@@ -488,7 +390,7 @@
       "scripps.com",
       "nbc.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://spectrum.net/app-ads.txt": {
     "name": "Spectrum",
@@ -498,7 +400,7 @@
     "all_partners": [
       "spectrum.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://adplatforms.paramount.com/app-ads.txt": {
     "name": "Paramount Ad Platform",
@@ -595,6 +497,7 @@
       "dazn.com",
       "m6.fr",
       "minute-ly.com",
+      "nsightvideo.com",
       "ruutu.fi",
       "stamptv.io",
       "tredio.io",
@@ -602,7 +505,7 @@
       "voisetech.com",
       "xapads.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://www.xfinity.com/app-ads.txt": {
     "name": "Xfinity",
@@ -634,7 +537,7 @@
       "xumo.com",
       "roku.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://www.tcl.com/ads.txt": {
     "name": "TCL",
@@ -642,6 +545,8 @@
     "ok": true,
     "has_amc": true,
     "all_partners": [
+      "tcltv.plus",
+      "wesdreamer.homes",
       "awg.la",
       "fuse.tv",
       "ionic.tv",
@@ -669,14 +574,12 @@
       "xumo.com",
       "tappx.com",
       "freetv.com",
-      "freetv.com",
       "failarmy.tv",
       "amagi.com",
       "janson.com",
       "viously.com",
       "kiviads.com",
       "scripps.com",
-      "viously.com",
       "courttv.com",
       "wedotv.com",
       "aniview.com",
@@ -743,7 +646,7 @@
       "pursuituptv.com",
       "tvaztecalive.com",
       "toongoggles.com",
-      "cookingpan da.com",
+      "cookingpanda.com",
       "webedia-group.com",
       "kartoonchannel.com",
       "multimediosplay.com",
@@ -752,7 +655,7 @@
       "questarentertainment.com",
       "video.blackgoldmediapartners.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://www.sling.com/ads.txt": {
     "name": "Sling",
@@ -831,7 +734,7 @@
       "scripps.com",
       "nbc.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://plex.tv/ads.txt": {
     "name": "Plex",
@@ -990,7 +893,7 @@
       "lgchannels.com",
       "qwest.tv"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://ad.platform.vizio.com/ads.txt": {
     "name": "Vizio Ad Platform",
@@ -1098,9 +1001,14 @@
       "nuba.io",
       "fandango.com",
       "hallmarkchannel.com",
-      "vestastream.com"
+      "vestastream.com",
+      "galxy.tv",
+      "familyhandyman.tv",
+      "videoelephant.tv",
+      "tennischannel.com",
+      "sbgi.net"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   },
   "https://prd.pluto.tv/app-ads.txt": {
     "name": "Pluto TV",
@@ -1145,6 +1053,6 @@
       "wurl.com",
       "iontelevision.com"
     ],
-    "checked_at": "2026-06-01 16:08 UTC"
+    "checked_at": "2026-07-01 12:36 UTC"
   }
 }
