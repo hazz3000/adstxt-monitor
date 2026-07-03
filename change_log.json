@@ -1067,6 +1067,11 @@
       "date": "2026-07-02 11:34 UTC",
       "status": "unchanged",
       "lines": 1269
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "amc.com/app-ads.txt": [
@@ -2135,6 +2140,11 @@
     },
     {
       "date": "2026-07-02 11:34 UTC",
+      "status": "unchanged",
+      "lines": 1182
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
       "status": "unchanged",
       "lines": 1182
     }
@@ -3207,6 +3217,11 @@
       "date": "2026-07-02 11:34 UTC",
       "status": "unchanged",
       "lines": 1269
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -4275,6 +4290,11 @@
     },
     {
       "date": "2026-07-02 11:34 UTC",
+      "status": "unchanged",
+      "lines": 1182
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
       "status": "unchanged",
       "lines": 1182
     }
@@ -5347,6 +5367,11 @@
       "date": "2026-07-02 11:34 UTC",
       "status": "unchanged",
       "lines": 1269
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -6417,6 +6442,11 @@
       "date": "2026-07-02 11:34 UTC",
       "status": "unchanged",
       "lines": 1182
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
+      "status": "unchanged",
+      "lines": 1182
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -7485,6 +7515,11 @@
     },
     {
       "date": "2026-07-02 11:34 UTC",
+      "status": "unchanged",
+      "lines": 1269
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
       "status": "unchanged",
       "lines": 1269
     }
@@ -8674,6 +8709,23 @@
         }
       ],
       "lines": 19
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.55fd796c6c730af82dc0.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.c1299cc7c25b845c595b.js\"></script><script defer=\"defer\" src=\"/code/js/54404.31e08a854d0fd4374ce8.js\"></script><script defer=\"defer\" src=\"/code/js/45423.12a01112c8c4cad48368.js\"></script><script defer=\"defer\" src=\"/code/js/14366.de88e91af1d0d435f65a.js\"></script><script defer=\"defer\" src=\"/code/js/96406.f2f80bd523e1af625c43.js\"></script><script defer=\"defer\" src=\"/code/js/59402.744fb21b30974ce01948.js\"></script><script defer=\"defer\" src=\"/code/js/app.77904bdf86d88439d913.js\"></script><link href=\"/style/css/54404.84820f13883e452f12ae.css\" rel=\"stylesheet\"><link href=\"/style/css/59402.e156d0e2f61cc6f3d393.css\" rel=\"stylesheet\"><link href=\"/style/css/app.fabd73c4415a302aef05.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.55fd796c6c730af82dc0.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.c1299cc7c25b845c595b.js\"></script><script defer=\"defer\" src=\"/code/js/21799.dbbd0158a95cfab6d144.js\"></script><script defer=\"defer\" src=\"/code/js/45423.94520e97b52408272a94.js\"></script><script defer=\"defer\" src=\"/code/js/14366.35943f481f84f787f1e1.js\"></script><script defer=\"defer\" src=\"/code/js/96406.54b3b755601bffb8d823.js\"></script><script defer=\"defer\" src=\"/code/js/57207.0b85d3b8da354f298333.js\"></script><script defer=\"defer\" src=\"/code/js/app.db1b797cc6e6192822f2.js\"></script><link href=\"/style/css/21799.c3cfa9a841b5a9a3f7ab.css\" rel=\"stylesheet\"><link href=\"/style/css/57207.61390cb7d67d935e7d20.css\" rel=\"stylesheet\"><link href=\"/style/css/app.fabd73c4415a302aef05.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 19
     }
   ],
   "wetv.com/ads.txt": [
@@ -9744,6 +9796,11 @@
       "date": "2026-07-02 11:34 UTC",
       "status": "unchanged",
       "lines": 1269
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
+      "status": "unchanged",
+      "lines": 1269
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -10812,6 +10869,11 @@
     },
     {
       "date": "2026-07-02 11:34 UTC",
+      "status": "unchanged",
+      "lines": 1182
+    },
+    {
+      "date": "2026-07-03 11:33 UTC",
       "status": "unchanged",
       "lines": 1182
     }
