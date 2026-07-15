@@ -1187,6 +1187,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1275
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1302
     }
   ],
   "amc.com/app-ads.txt": [
@@ -2373,6 +2481,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1184
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1211
     }
   ],
   "bbca.com/ads.txt": [
@@ -3563,6 +3779,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1275
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1302
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -4749,6 +5073,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1184
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1211
     }
   ],
   "ifc.com/ads.txt": [
@@ -5939,6 +6371,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1275
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1302
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -7125,6 +7665,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1184
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1211
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -8315,6 +8963,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1275
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1302
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -9670,6 +10426,23 @@
         }
       ],
       "lines": 19
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.1bbd04b5ea4f62a1b99d.js\"></script><script defer=\"defer\" src=\"/code/js/11173.560463b809bb94aca898.js\"></script><script defer=\"defer\" src=\"/code/js/45423.b7dc1428d87f14ef4c0a.js\"></script><script defer=\"defer\" src=\"/code/js/14366.de88e91af1d0d435f65a.js\"></script><script defer=\"defer\" src=\"/code/js/96406.b6ff04b84d65104642ec.js\"></script><script defer=\"defer\" src=\"/code/js/60244.4c12a7f457c95352e394.js\"></script><script defer=\"defer\" src=\"/code/js/app.6493822efc5bccc029c2.js\"></script><link href=\"/style/css/11173.09e704d0924498e508a5.css\" rel=\"stylesheet\"><link href=\"/style/css/60244.edd8c74c1b7313cb8486.css\" rel=\"stylesheet\"><link href=\"/style/css/app.5d8535b28cfdd158bf3f.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.1bbd04b5ea4f62a1b99d.js\"></script><script defer=\"defer\" src=\"/code/js/11173.560463b809bb94aca898.js\"></script><script defer=\"defer\" src=\"/code/js/45423.b7dc1428d87f14ef4c0a.js\"></script><script defer=\"defer\" src=\"/code/js/14366.de88e91af1d0d435f65a.js\"></script><script defer=\"defer\" src=\"/code/js/96406.b6ff04b84d65104642ec.js\"></script><script defer=\"defer\" src=\"/code/js/60244.0eca8a9ff33d7948e0e7.js\"></script><script defer=\"defer\" src=\"/code/js/app.d6197292746946cfc1c7.js\"></script><link href=\"/style/css/11173.09e704d0924498e508a5.css\" rel=\"stylesheet\"><link href=\"/style/css/60244.edd8c74c1b7313cb8486.css\" rel=\"stylesheet\"><link href=\"/style/css/app.5d8535b28cfdd158bf3f.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 19
     }
   ],
   "wetv.com/ads.txt": [
@@ -10860,6 +11633,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1275
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1302
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -12046,6 +12927,114 @@
       "date": "2026-07-14 10:47 UTC",
       "status": "unchanged",
       "lines": 1184
+    },
+    {
+      "date": "2026-07-15 10:50 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "adipolosolutions.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "adipolo.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "opamarketplace.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9135355251665930, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "pmbmonetize.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4836542095728076, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadline.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-6804276076764268, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "omgstudios.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-9857612698505806, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "optimovid.com, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-4104675640276663, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com,16912,RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 8420, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1300404, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, sg1297891, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-523319, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "freewheel.tv, 542210-r-524565, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "Media.net, 8CARAD4MC, RESELLER",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "triplelift.com, 13982-EB, DIRECT, 6c33edb13117fd86",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "appnexus.com, 3920, RESELLER, f5ab79cb980f11d1",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "smartadserver.com, 5532, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adipolo"
+        }
+      ],
+      "removed": [],
+      "lines": 1211
     }
   ]
 }
