@@ -1335,6 +1335,11 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1302
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "unchanged",
+      "lines": 1302
     }
   ],
   "amc.com/app-ads.txt": [
@@ -2669,6 +2674,18 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1211
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "zetaglobal.net, 707, RESELLER",
+          "section": "#Siprocal:"
+        }
+      ],
+      "removed": [],
+      "lines": 1214
     }
   ],
   "bbca.com/ads.txt": [
@@ -4007,6 +4024,11 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1302
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "unchanged",
+      "lines": 1302
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -5341,6 +5363,18 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1211
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "zetaglobal.net, 707, RESELLER",
+          "section": "#Siprocal:"
+        }
+      ],
+      "removed": [],
+      "lines": 1214
     }
   ],
   "ifc.com/ads.txt": [
@@ -6679,6 +6713,11 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1302
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "unchanged",
+      "lines": 1302
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -8013,6 +8052,18 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1211
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "zetaglobal.net, 707, RESELLER",
+          "section": "#Siprocal:"
+        }
+      ],
+      "removed": [],
+      "lines": 1214
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -9349,6 +9400,11 @@
     },
     {
       "date": "2026-07-23 11:10 UTC",
+      "status": "unchanged",
+      "lines": 1302
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
       "status": "unchanged",
       "lines": 1302
     }
@@ -10835,6 +10891,23 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 19
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.42aa5d32af25c49922eb.js\"></script><script defer=\"defer\" src=\"/code/js/11173.7d6ffe9b5ff981302211.js\"></script><script defer=\"defer\" src=\"/code/js/45423.d0deec31d0abafc35a90.js\"></script><script defer=\"defer\" src=\"/code/js/14366.322740b5fb686b3b6757.js\"></script><script defer=\"defer\" src=\"/code/js/96406.2ac432c7803f6017cfbf.js\"></script><script defer=\"defer\" src=\"/code/js/60244.e1d065eaf2286078eaed.js\"></script><script defer=\"defer\" src=\"/code/js/app.73d7956190ce70108338.js\"></script><link href=\"/style/css/11173.09e704d0924498e508a5.css\" rel=\"stylesheet\"><link href=\"/style/css/60244.98abfc415096e9989941.css\" rel=\"stylesheet\"><link href=\"/style/css/app.bce01cc2f9e280f43197.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.42aa5d32af25c49922eb.js\"></script><script defer=\"defer\" src=\"/code/js/11173.eeed422979fd7adb7665.js\"></script><script defer=\"defer\" src=\"/code/js/45423.84dfa342c140b55c0e77.js\"></script><script defer=\"defer\" src=\"/code/js/14366.4865338795c7e3c77b80.js\"></script><script defer=\"defer\" src=\"/code/js/96406.8bb32110ae235c00b8f8.js\"></script><script defer=\"defer\" src=\"/code/js/60244.4bdda71d8cc52675bab1.js\"></script><script defer=\"defer\" src=\"/code/js/app.7c9dcc7cb5f6a4338575.js\"></script><link href=\"/style/css/11173.09e704d0924498e508a5.css\" rel=\"stylesheet\"><link href=\"/style/css/60244.edd8c74c1b7313cb8486.css\" rel=\"stylesheet\"><link href=\"/style/css/app.bce01cc2f9e280f43197.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 19
     }
   ],
   "wetv.com/ads.txt": [
@@ -12173,6 +12246,11 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1302
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "unchanged",
+      "lines": 1302
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -13507,6 +13585,18 @@
       "date": "2026-07-23 11:10 UTC",
       "status": "unchanged",
       "lines": 1211
+    },
+    {
+      "date": "2026-07-24 11:03 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "zetaglobal.net, 707, RESELLER",
+          "section": "#Siprocal:"
+        }
+      ],
+      "removed": [],
+      "lines": 1214
     }
   ]
 }
