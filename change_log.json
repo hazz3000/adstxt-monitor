@@ -1360,6 +1360,11 @@
       "date": "2026-07-28 11:18 UTC",
       "status": "unchanged",
       "lines": 1302
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
+      "status": "unchanged",
+      "lines": 1302
     }
   ],
   "amc.com/app-ads.txt": [
@@ -2726,6 +2731,11 @@
       "date": "2026-07-28 11:18 UTC",
       "status": "unchanged",
       "lines": 1214
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
+      "status": "unchanged",
+      "lines": 1214
     }
   ],
   "bbca.com/ads.txt": [
@@ -4087,6 +4097,11 @@
     },
     {
       "date": "2026-07-28 11:18 UTC",
+      "status": "unchanged",
+      "lines": 1302
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
       "status": "unchanged",
       "lines": 1302
     }
@@ -5455,6 +5470,11 @@
       "date": "2026-07-28 11:18 UTC",
       "status": "unchanged",
       "lines": 1214
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
+      "status": "unchanged",
+      "lines": 1214
     }
   ],
   "ifc.com/ads.txt": [
@@ -6816,6 +6836,11 @@
     },
     {
       "date": "2026-07-28 11:18 UTC",
+      "status": "unchanged",
+      "lines": 1302
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
       "status": "unchanged",
       "lines": 1302
     }
@@ -8184,6 +8209,11 @@
       "date": "2026-07-28 11:18 UTC",
       "status": "unchanged",
       "lines": 1214
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
+      "status": "unchanged",
+      "lines": 1214
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -9545,6 +9575,11 @@
     },
     {
       "date": "2026-07-28 11:18 UTC",
+      "status": "unchanged",
+      "lines": 1302
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
       "status": "unchanged",
       "lines": 1302
     }
@@ -11092,6 +11127,55 @@
         }
       ],
       "lines": 19
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "});</script><script>// Keep in sync with COMPANION_CONSENT_PATH in companionPath.ts",
+          "section": "(no section)"
+        },
+        {
+          "line": "const isCompanionRoute = window.location.pathname.endsWith('/tv-consent');",
+          "section": "(no section)"
+        },
+        {
+          "line": "if (!isCompanionRoute) {",
+          "section": "(no section)"
+        },
+        {
+          "line": "const s = document.createElement('script');",
+          "section": "(no section)"
+        },
+        {
+          "line": "s.src = \"https://dce-frontoffice.imggaming.com/api/v2/realm-settings/settings/HEADER_SCRIPT/redirect?domain=\" + window.location.hostname;",
+          "section": "(no section)"
+        },
+        {
+          "line": "document.head.appendChild(s);",
+          "section": "(no section)"
+        },
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.42aa5d32af25c49922eb.js\"></script><script defer=\"defer\" src=\"/code/js/88560.e76585c24f73720a7f0f.js\"></script><script defer=\"defer\" src=\"/code/js/45423.f9ee3c3505836fbefdb3.js\"></script><script defer=\"defer\" src=\"/code/js/14366.f2c8d85e58dbafc03e8c.js\"></script><script defer=\"defer\" src=\"/code/js/96406.e88f95286fd5d4e42f39.js\"></script><script defer=\"defer\" src=\"/code/js/38172.ea42e2a27b83ea6da1b1.js\"></script><script defer=\"defer\" src=\"/code/js/app.09273b1e4cb4e3907efb.js\"></script><link href=\"/style/css/88560.94d1fad76847b69ecee4.css\" rel=\"stylesheet\"><link href=\"/style/css/38172.aeec77d5c7703b16731d.css\" rel=\"stylesheet\"><link href=\"/style/css/app.b2b0904b409f3b1b08df.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "});</script><script>const s = document.createElement('script');",
+          "section": "(no section)"
+        },
+        {
+          "line": "s.src = \"https://dce-frontoffice.imggaming.com/api/v2/realm-settings/settings/HEADER_SCRIPT/redirect?domain=\" + window.location.hostname",
+          "section": "(no section)"
+        },
+        {
+          "line": "document.head.appendChild(s);</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.42aa5d32af25c49922eb.js\"></script><script defer=\"defer\" src=\"/code/js/88560.e76585c24f73720a7f0f.js\"></script><script defer=\"defer\" src=\"/code/js/45423.ac96b1fd2671f5578fa8.js\"></script><script defer=\"defer\" src=\"/code/js/14366.f2c8d85e58dbafc03e8c.js\"></script><script defer=\"defer\" src=\"/code/js/96406.303024767509d6281e28.js\"></script><script defer=\"defer\" src=\"/code/js/60244.9810dbd9de0f0d3651ab.js\"></script><script defer=\"defer\" src=\"/code/js/app.853dbf1212675af7cecb.js\"></script><link href=\"/style/css/88560.94d1fad76847b69ecee4.css\" rel=\"stylesheet\"><link href=\"/style/css/60244.cfd574b9768a8f4315b4.css\" rel=\"stylesheet\"><link href=\"/style/css/app.b2b0904b409f3b1b08df.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -12453,6 +12537,11 @@
     },
     {
       "date": "2026-07-28 11:18 UTC",
+      "status": "unchanged",
+      "lines": 1302
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
       "status": "unchanged",
       "lines": 1302
     }
@@ -13819,6 +13908,11 @@
     },
     {
       "date": "2026-07-28 11:18 UTC",
+      "status": "unchanged",
+      "lines": 1214
+    },
+    {
+      "date": "2026-07-29 11:26 UTC",
       "status": "unchanged",
       "lines": 1214
     }
