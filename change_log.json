@@ -1480,6 +1480,99 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1310
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, DIRECT, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Kargo"
+        }
+      ],
+      "lines": 1319
     }
   ],
   "amc.com/app-ads.txt": [
@@ -2966,6 +3059,79 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1222
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Vix"
+        },
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Vix"
+        }
+      ],
+      "lines": 1240
     }
   ],
   "bbca.com/ads.txt": [
@@ -4449,6 +4615,99 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1310
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, DIRECT, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Kargo"
+        }
+      ],
+      "lines": 1319
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -5935,6 +6194,79 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1222
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Vix"
+        },
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Vix"
+        }
+      ],
+      "lines": 1240
     }
   ],
   "ifc.com/ads.txt": [
@@ -7418,6 +7750,99 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1310
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, DIRECT, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Kargo"
+        }
+      ],
+      "lines": 1319
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -8904,6 +9329,79 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1222
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Vix"
+        },
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Vix"
+        }
+      ],
+      "lines": 1240
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -10387,6 +10885,99 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1310
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, DIRECT, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Kargo"
+        }
+      ],
+      "lines": 1319
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -12217,6 +12808,23 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.26fbe0f79f46c51a9923.js\"></script><script defer=\"defer\" src=\"/code/js/88560.64a70991206894cc12f6.js\"></script><script defer=\"defer\" src=\"/code/js/66507.0a8447f39a1347ef2b8c.js\"></script><script defer=\"defer\" src=\"/code/js/14366.42c39e3cf040948ba9d7.js\"></script><script defer=\"defer\" src=\"/code/js/95154.3ab4c062f3f4c1bb6831.js\"></script><script defer=\"defer\" src=\"/code/js/38172.92d8693110d15e34e5b6.js\"></script><script defer=\"defer\" src=\"/code/js/app.c266ef6b0d76eb011eea.js\"></script><link href=\"/style/css/88560.94d1fad76847b69ecee4.css\" rel=\"stylesheet\"><link href=\"/style/css/38172.aeec77d5c7703b16731d.css\" rel=\"stylesheet\"><link href=\"/style/css/app.9076c08f52b34525bbb7.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/moment.23140bed602335b1278f.js\"></script><script defer=\"defer\" src=\"/code/js/17350.0d34ab3d4bf3536e570f.js\"></script><script defer=\"defer\" src=\"/code/js/48287.2e53575ea85279b62f3a.js\"></script><script defer=\"defer\" src=\"/code/js/10074.26fbe0f79f46c51a9923.js\"></script><script defer=\"defer\" src=\"/code/js/88560.64a70991206894cc12f6.js\"></script><script defer=\"defer\" src=\"/code/js/66507.0a8447f39a1347ef2b8c.js\"></script><script defer=\"defer\" src=\"/code/js/14366.42c39e3cf040948ba9d7.js\"></script><script defer=\"defer\" src=\"/code/js/95154.3ab4c062f3f4c1bb6831.js\"></script><script defer=\"defer\" src=\"/code/js/38172.92d8693110d15e34e5b6.js\"></script><script defer=\"defer\" src=\"/code/js/app.ff41ecc553da81e3f785.js\"></script><link href=\"/style/css/88560.94d1fad76847b69ecee4.css\" rel=\"stylesheet\"><link href=\"/style/css/38172.aeec77d5c7703b16731d.css\" rel=\"stylesheet\"><link href=\"/style/css/app.9076c08f52b34525bbb7.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -13700,6 +14308,99 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1310
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, DIRECT, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, DIRECT",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, DIRECT, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Kargo"
+        }
+      ],
+      "lines": 1319
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -15186,6 +15887,79 @@
       "date": "2026-08-14 10:03 UTC",
       "status": "unchanged",
       "lines": 1222
+    },
+    {
+      "date": "2026-08-15 09:26 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "indexexchange.com, 191937, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191231, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 191512, RESELLER, 50b1c356f2c5c8fc",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 185104, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "indexexchange.com, 190275, RESELLER",
+          "section": "#Kargo"
+        },
+        {
+          "line": "contextweb.com, 560840, RESELLER, 89ff185a4c4e857c",
+          "section": "#Kargo"
+        },
+        {
+          "line": "rubiconproject.com, 16940, RESELLER, 0bfd66d529a55807",
+          "section": "#Kargo"
+        },
+        {
+          "line": "bidfuse.com, bf-8777884811776869, RESELLER",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6151720204273327, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-9368783394598679, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, RESELLER, f08c47fec0942fa0",
+          "section": "#Amagi"
+        },
+        {
+          "line": "elementaltv.io, 42378491, DIRECT, c67ec7a88426a864",
+          "section": "#ElementalTV"
+        }
+      ],
+      "removed": [
+        {
+          "line": "rubiconproject.com, 16940, DIRECT, 0bfd66d529a55807",
+          "section": "#Vix"
+        },
+        {
+          "line": "indexexchange.com, 191937, DIRECT",
+          "section": "#Vix"
+        }
+      ],
+      "lines": 1240
     }
   ]
 }
