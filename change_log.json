@@ -2318,6 +2318,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1466
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1477
     }
   ],
   "amc.com/app-ads.txt": [
@@ -4622,6 +4662,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1387
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1397
     }
   ],
   "bbca.com/ads.txt": [
@@ -6943,6 +7023,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1466
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1477
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -9247,6 +9367,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1387
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1397
     }
   ],
   "ifc.com/ads.txt": [
@@ -11568,6 +11728,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1466
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1477
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -13872,6 +14072,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1387
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1397
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -16193,6 +16433,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1466
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1477
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -18530,6 +18810,23 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/moment.419c9f1bfc6ef0d8dd92.js\"></script><script defer=\"defer\" src=\"/code/js/17350.3cbea42edb89a5b6337b.js\"></script><script defer=\"defer\" src=\"/code/js/18465.a0128552046213f23329.js\"></script><script defer=\"defer\" src=\"/code/js/45070.df21e60a0fafc90959ca.js\"></script><script defer=\"defer\" src=\"/code/js/23617.5aa6112ebce90055c72c.js\"></script><script defer=\"defer\" src=\"/code/js/14366.dd3aa19dc9ccaf6411e3.js\"></script><script defer=\"defer\" src=\"/code/js/96406.de2e5117c09861b8ce77.js\"></script><script defer=\"defer\" src=\"/code/js/49686.c390cdc5beebfe2c9080.js\"></script><script defer=\"defer\" src=\"/code/js/app.545e04852d4a190e7fb3.js\"></script><link href=\"/style/css/45070.634001c3db6038117801.css\" rel=\"stylesheet\"><link href=\"/style/css/49686.d8c6ca69a07f12c9535d.css\" rel=\"stylesheet\"><link href=\"/style/css/app.f00770abbd8d9d7ac9e8.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/moment.419c9f1bfc6ef0d8dd92.js\"></script><script defer=\"defer\" src=\"/code/js/17350.3cbea42edb89a5b6337b.js\"></script><script defer=\"defer\" src=\"/code/js/18465.a0128552046213f23329.js\"></script><script defer=\"defer\" src=\"/code/js/45070.a26685583c0b2c652c72.js\"></script><script defer=\"defer\" src=\"/code/js/23617.897d9d3dc7eac3be2914.js\"></script><script defer=\"defer\" src=\"/code/js/14366.dd3aa19dc9ccaf6411e3.js\"></script><script defer=\"defer\" src=\"/code/js/96406.de2e5117c09861b8ce77.js\"></script><script defer=\"defer\" src=\"/code/js/49686.67bf72f1219d4ecf09ec.js\"></script><script defer=\"defer\" src=\"/code/js/app.01c8651008d0ce16b75a.js\"></script><link href=\"/style/css/45070.634001c3db6038117801.css\" rel=\"stylesheet\"><link href=\"/style/css/49686.d8c6ca69a07f12c9535d.css\" rel=\"stylesheet\"><link href=\"/style/css/app.d9daca81ba7f337f6519.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -20851,6 +21148,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1466
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1477
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -23155,6 +23492,46 @@
       "date": "2026-09-22 13:55 UTC",
       "status": "unchanged",
       "lines": 1387
+    },
+    {
+      "date": "2026-09-23 14:06 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "video.unrulymedia.com, 2014616652, RESELLER, 98c21ef9a666c68b",
+          "section": "#Sonobi"
+        },
+        {
+          "line": "anyclip.com, 001Te00000hfb7hIAA, DIRECT",
+          "section": "#anyclip"
+        },
+        {
+          "line": "smartadserver.com, 5759, RESELLER, 060d053dcf45cbf3",
+          "section": "#anyclip"
+        },
+        {
+          "line": "sharethrough.com, 5759, RESELLER, d53b998a7bd4ecd2",
+          "section": "#anyclip"
+        },
+        {
+          "line": "triplelift.com, 424, RESELLER, 6c33edb13117fd86",
+          "section": "#anyclip"
+        },
+        {
+          "line": "mediafuse.com, 403, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "benefit.media, 2268428, RESELLER",
+          "section": "#anyclip"
+        },
+        {
+          "line": "nativo.com, 6077, RESELLER, 59521ca7cc5e9fee",
+          "section": "#anyclip"
+        }
+      ],
+      "removed": [],
+      "lines": 1397
     }
   ]
 }
