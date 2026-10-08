@@ -2428,6 +2428,183 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1477
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1476
     }
   ],
   "amc.com/app-ads.txt": [
@@ -4842,6 +5019,187 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1397
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "conversantmedia.com, 100316, RESELLER, 03113cd04947736d",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1396
     }
   ],
   "bbca.com/ads.txt": [
@@ -7273,6 +7631,183 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1477
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1476
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -9687,6 +10222,187 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1397
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "conversantmedia.com, 100316, RESELLER, 03113cd04947736d",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1396
     }
   ],
   "ifc.com/ads.txt": [
@@ -12118,6 +12834,183 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1477
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1476
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -14532,6 +15425,187 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1397
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "conversantmedia.com, 100316, RESELLER, 03113cd04947736d",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1396
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -16963,6 +18037,183 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1477
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1476
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -19519,6 +20770,23 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.af76eaa9e545f56443c3.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/74234.fd2664df293d5ee3fc72.js\"></script><script defer=\"defer\" src=\"/code/js/3177.5acc0961104bc0f338ca.js\"></script><script defer=\"defer\" src=\"/code/js/18465.efca3aa84d5b1d7a0ad7.js\"></script><script defer=\"defer\" src=\"/code/js/14366.3c5a374478df5356ffbf.js\"></script><script defer=\"defer\" src=\"/code/js/96406.531b29ba2f97b6bc4fbd.js\"></script><script defer=\"defer\" src=\"/code/js/76171.15985e85632b1ceed1ee.js\"></script><script defer=\"defer\" src=\"/code/js/59586.a94970f05b4d5d8b9a8e.js\"></script><script defer=\"defer\" src=\"/code/js/app.5babe00a5acc372431a8.js\"></script><link href=\"/style/css/3177.c3f17f0c40e492325ca7.css\" rel=\"stylesheet\"><link href=\"/style/css/76171.7e71223a5b3c0d0c05a1.css\" rel=\"stylesheet\"><link href=\"/style/css/app.2bdd16b6ae60954db24f.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.af76eaa9e545f56443c3.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/74234.fd2664df293d5ee3fc72.js\"></script><script defer=\"defer\" src=\"/code/js/3177.5acc0961104bc0f338ca.js\"></script><script defer=\"defer\" src=\"/code/js/18465.efca3aa84d5b1d7a0ad7.js\"></script><script defer=\"defer\" src=\"/code/js/14366.3c5a374478df5356ffbf.js\"></script><script defer=\"defer\" src=\"/code/js/96406.531b29ba2f97b6bc4fbd.js\"></script><script defer=\"defer\" src=\"/code/js/76171.df2c0eaec0d30eca9b61.js\"></script><script defer=\"defer\" src=\"/code/js/59586.a94970f05b4d5d8b9a8e.js\"></script><script defer=\"defer\" src=\"/code/js/app.912df29ab52e5699256f.js\"></script><link href=\"/style/css/3177.c3f17f0c40e492325ca7.css\" rel=\"stylesheet\"><link href=\"/style/css/76171.7e71223a5b3c0d0c05a1.css\" rel=\"stylesheet\"><link href=\"/style/css/app.2bdd16b6ae60954db24f.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -21950,6 +23218,183 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1477
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1476
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -24364,6 +25809,187 @@
       "date": "2026-10-07 16:08 UTC",
       "status": "unchanged",
       "lines": 1397
+    },
+    {
+      "date": "2026-10-08 16:10 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "bidfuse.com, bfg072920261235, DIRECT",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-8699255262206653, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-5814872297601307, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-4090464146774671, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "google.com, pub-6321569031477188, DIRECT, f08c47fec0942fa0",
+          "section": "#Wurl"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 536110-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "siprocalads.com, U7EAAF4SUL4B37557IEFBI5H6S, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "smartadserver.com, 5884, RESELLER, 060d053dcf45cbf3",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, 5884, RESELLER, d53b998a7bd4ecd2",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "triplelift.com, 14824, RESELLER, 6c33edb13117fd86",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, sg1248170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "google.com, pub-3778384004848089, DIRECT, f08c47fec0942fa0",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "Update - these are currently reseller and need to be updated to direct:",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "sharethrough.com, HIdAAmRP, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "adte.com, 1136, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "zetaglobal.net, 915, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 154235949, RESELLER, 98c21ef9a666c68b",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1297115, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 1842193631, DIRECT, 98c21ef9a666c68b",
+          "section": "#Nexxen"
+        }
+      ],
+      "removed": [
+        {
+          "line": "supply.colossusssp.com, 865, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "programmaticx.ai, 6000119, DIRECT, b42d42eb28400efa",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "vodiomedia.com, 4e4e8dbf , DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "widesound.io, 12001010, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "lijit.com, 533923, DIRECT, fafdf38b16bf6b2b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "robust-apps.com, 244, DIRECT",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-523319, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "freewheel.tv, 534996-r-524565, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 656687170, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "video.unrulymedia.com, 756992720, RESELLER",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "loopme.com, 11704, RESELLER, 6c8d5f95897a5a3b",
+          "section": "# The Media Sense:"
+        },
+        {
+          "line": "365fitnesshub.tv, 1456, DIRECT, 45dc5a0895f535il",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "video.unrulymedia.com, 251734075, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 1606745, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "xandr.com, 16082, RESELLER",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "emxdgt.com, 2618, RESELLER, 1e1d41537f7cad7f",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "conversantmedia.com, 100316, RESELLER, 03113cd04947736d",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "Contextweb.com, 563518, RESELLER, 89ff185a4c4e857c",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "lkqd.net, 1100057995, RESELLER, 59c49fa9598a0117",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, sg1256344, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "freewheel.tv, 533474-d-523319, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "smaato.com, 1100058541, DIRECT, 07bcf65f187117b14",
+          "section": "# 365 Fitness Hub:"
+        },
+        {
+          "line": "undertone.com, 4264, DIRECT",
+          "section": "# 365 Fitness Hub:"
+        }
+      ],
+      "lines": 1396
     }
   ]
 }
