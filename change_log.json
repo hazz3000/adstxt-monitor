@@ -2635,6 +2635,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1476
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1496
     }
   ],
   "amc.com/app-ads.txt": [
@@ -5260,6 +5328,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1396
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1416
     }
   ],
   "bbca.com/ads.txt": [
@@ -7898,6 +8034,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1476
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1496
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -10523,6 +10727,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1396
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1416
     }
   ],
   "ifc.com/ads.txt": [
@@ -13161,6 +13433,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1476
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1496
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -15786,6 +16126,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1396
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1416
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -18424,6 +18832,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1476
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1496
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -21075,6 +21551,23 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.af76eaa9e545f56443c3.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/74234.fd2664df293d5ee3fc72.js\"></script><script defer=\"defer\" src=\"/code/js/3177.82eae1dfabf3973df829.js\"></script><script defer=\"defer\" src=\"/code/js/18465.efca3aa84d5b1d7a0ad7.js\"></script><script defer=\"defer\" src=\"/code/js/14366.3c5a374478df5356ffbf.js\"></script><script defer=\"defer\" src=\"/code/js/96406.e873f3b08af2c6fe9524.js\"></script><script defer=\"defer\" src=\"/code/js/76171.f9027c5379df36619aa9.js\"></script><script defer=\"defer\" src=\"/code/js/59586.0b708d45bff1bd0c1938.js\"></script><script defer=\"defer\" src=\"/code/js/app.94e649ea0aaf62d4f936.js\"></script><link href=\"/style/css/3177.c3f17f0c40e492325ca7.css\" rel=\"stylesheet\"><link href=\"/style/css/76171.7e71223a5b3c0d0c05a1.css\" rel=\"stylesheet\"><link href=\"/style/css/app.f94abf80a9c3917628a3.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.af76eaa9e545f56443c3.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/74234.fd2664df293d5ee3fc72.js\"></script><script defer=\"defer\" src=\"/code/js/3177.82eae1dfabf3973df829.js\"></script><script defer=\"defer\" src=\"/code/js/18465.efca3aa84d5b1d7a0ad7.js\"></script><script defer=\"defer\" src=\"/code/js/14366.3c5a374478df5356ffbf.js\"></script><script defer=\"defer\" src=\"/code/js/96406.e873f3b08af2c6fe9524.js\"></script><script defer=\"defer\" src=\"/code/js/76171.b338540704f778390a93.js\"></script><script defer=\"defer\" src=\"/code/js/59586.0b708d45bff1bd0c1938.js\"></script><script defer=\"defer\" src=\"/code/js/app.6f7c0861e484e99dce2d.js\"></script><link href=\"/style/css/3177.c3f17f0c40e492325ca7.css\" rel=\"stylesheet\"><link href=\"/style/css/76171.7e71223a5b3c0d0c05a1.css\" rel=\"stylesheet\"><link href=\"/style/css/app.5935added92d36c373a6.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -23713,6 +24206,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1476
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1496
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -26338,6 +26899,74 @@
       "date": "2026-10-14 14:22 UTC",
       "status": "unchanged",
       "lines": 1396
+    },
+    {
+      "date": "2026-10-15 13:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "INVENTORYPARTNERDOMAIN=thegermanemedia.com",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "thegermanemedia.com, 766, DIRECT",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "freewheel.tv, 536108-r-523319, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "triplelift.com, 14855, RESELLER, 6c33edb13117fd86",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2936, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "lijit.com, 509119, DIRECT, fafdf38b16bf6b2b",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "smartadserver.com, 4938, RESELLER, 060d053dcf45cbf3",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "inmobi.com, b874aa097f3d43ffadc51642ffd3999c, RESELLER, 83e75a7ae333ca9d",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "appnexus.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "xandr.com, 17975, RESELLER, f5ab79cb980f11d1",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "google.com, pub-6716225838534735, RESELLER, f08c47fec0942fa0",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "video.unrulymedia.com, 244078412, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "improvedigital.com, 2693, RESELLER",
+          "section": "#TheGermaneMedia"
+        },
+        {
+          "line": "telaria.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        },
+        {
+          "line": "tremorhub.com,lxumr-9wl13,DIRECT,1a4e959a1b50034a",
+          "section": "#Evergreen"
+        }
+      ],
+      "removed": [],
+      "lines": 1416
     }
   ]
 }
