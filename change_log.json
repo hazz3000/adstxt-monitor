@@ -2763,6 +2763,11 @@
       "date": "2026-10-27 15:10 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
+      "status": "unchanged",
+      "lines": 1496
     }
   ],
   "amc.com/app-ads.txt": [
@@ -5514,6 +5519,11 @@
     },
     {
       "date": "2026-10-27 15:10 UTC",
+      "status": "unchanged",
+      "lines": 1416
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
       "status": "unchanged",
       "lines": 1416
     }
@@ -8282,6 +8292,11 @@
       "date": "2026-10-27 15:10 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
+      "status": "unchanged",
+      "lines": 1496
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -11033,6 +11048,11 @@
     },
     {
       "date": "2026-10-27 15:10 UTC",
+      "status": "unchanged",
+      "lines": 1416
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
       "status": "unchanged",
       "lines": 1416
     }
@@ -13801,6 +13821,11 @@
       "date": "2026-10-27 15:10 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
+      "status": "unchanged",
+      "lines": 1496
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -16552,6 +16577,11 @@
     },
     {
       "date": "2026-10-27 15:10 UTC",
+      "status": "unchanged",
+      "lines": 1416
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
       "status": "unchanged",
       "lines": 1416
     }
@@ -19318,6 +19348,11 @@
     },
     {
       "date": "2026-10-27 15:10 UTC",
+      "status": "unchanged",
+      "lines": 1496
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
       "status": "unchanged",
       "lines": 1496
     }
@@ -22168,6 +22203,23 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.36acaf0cf972e3c1254a.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/76396.82a16e441e8d590e5c55.js\"></script><script defer=\"defer\" src=\"/code/js/63288.96207dd3f53c43857f60.js\"></script><script defer=\"defer\" src=\"/code/js/69869.394b3dd0d08faa24a142.js\"></script><script defer=\"defer\" src=\"/code/js/54557.907055c03f4bce5f309d.js\"></script><script defer=\"defer\" src=\"/code/js/app.45383e68236e698ea9e9.js\"></script><link href=\"/style/css/76396.7aba2beb1aa86c9b528d.css\" rel=\"stylesheet\"><link href=\"/style/css/54557.dc00e5efcb98371c49bf.css\" rel=\"stylesheet\"><link href=\"/style/css/app.a4c3167086fef3015a2e.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.36acaf0cf972e3c1254a.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/6587.ff75c4c382e331b7cbad.js\"></script><script defer=\"defer\" src=\"/code/js/63288.96207dd3f53c43857f60.js\"></script><script defer=\"defer\" src=\"/code/js/69869.394b3dd0d08faa24a142.js\"></script><script defer=\"defer\" src=\"/code/js/36258.fc7d48cfca0e0643ecb6.js\"></script><script defer=\"defer\" src=\"/code/js/app.356d1f0ec3a9825237f5.js\"></script><link href=\"/style/css/6587.a4fb140dc00b984fccb3.css\" rel=\"stylesheet\"><link href=\"/style/css/36258.a45d8c6a22eefd3a250a.css\" rel=\"stylesheet\"><link href=\"/style/css/app.a4c3167086fef3015a2e.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -24934,6 +24986,11 @@
       "date": "2026-10-27 15:10 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
+      "status": "unchanged",
+      "lines": 1496
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -27685,6 +27742,11 @@
     },
     {
       "date": "2026-10-27 15:10 UTC",
+      "status": "unchanged",
+      "lines": 1416
+    },
+    {
+      "date": "2026-10-28 15:46 UTC",
       "status": "unchanged",
       "lines": 1416
     }
