@@ -2778,6 +2778,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1532
     }
   ],
   "amc.com/app-ads.txt": [
@@ -5546,6 +5594,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1416
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1452
     }
   ],
   "bbca.com/ads.txt": [
@@ -8327,6 +8423,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1532
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -11095,6 +11239,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1416
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1452
     }
   ],
   "ifc.com/ads.txt": [
@@ -13876,6 +14068,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1532
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -16644,6 +16884,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1416
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1452
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -19425,6 +19713,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1532
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -22324,6 +22660,11 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "unchanged",
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -25105,6 +25446,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1496
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1532
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -27873,6 +28262,54 @@
       "date": "2026-10-30 15:38 UTC",
       "status": "unchanged",
       "lines": 1416
+    },
+    {
+      "date": "2026-10-31 15:07 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "dauup.com, 34149, RESELLER, 4daba13e2b0dfd92",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "pubmatic.com,165230,RESELLER,5d62403b186f2ace",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "video.unrulymedia.com, 747665164, RESELLER, 98c21ef9a666c68b",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "smartadserver.com, 5877, RESELLER, 060d053dcf45cbf3",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "mediafuse.com, 900, RESELLER",
+          "section": "#Adtelligent"
+        },
+        {
+          "line": "vuukle.com, 381e5761-0467-45be-814e-95b3b8db1227, DIRECT, c8034d3da4547abf",
+          "section": "#Aceex"
+        },
+        {
+          "line": "pubmatic.com, 162738, RESELLER, 5d62403b186f2ace",
+          "section": "#Aceex"
+        },
+        {
+          "line": "video.unrulymedia.com, 1230894478, RESELLER",
+          "section": "#Aceex"
+        },
+        {
+          "line": "metaxsoft.com, 70780506, RESELLER",
+          "section": "#Smoot"
+        },
+        {
+          "line": "inmobi.com, 55f6bbc746644a129c19be75052aaeda, RESELLER, 83e75a7ae333ca9d",
+          "section": "#Smoot"
+        }
+      ],
+      "removed": [],
+      "lines": 1452
     }
   ]
 }
