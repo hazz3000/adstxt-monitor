@@ -110,9 +110,11 @@
       "tviq.io",
       "ryzsportsnetwork.com",
       "marqueebrands.com",
-      "insight.tv"
+      "insight.tv",
+      "thegermanemedia.com",
+      "c15.studio"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://help.philo.com/app-ads.txt": {
     "name": "Philo (help)",
@@ -151,7 +153,7 @@
       "samsungtvplus.com",
       "hartbeat.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://philo.com/app-ads.txt": {
     "name": "Philo",
@@ -190,7 +192,7 @@
       "samsungtvplus.com",
       "hartbeat.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://tvplus.adgrx.com/app-ads.txt": {
     "name": "AdGRX TV Plus",
@@ -297,7 +299,6 @@
       "laff.com",
       "rmcbfm-ads.com",
       "toongoggles.com",
-      "adnetplus.tv",
       "multimediostv.com",
       "foxnews.com",
       "foxweather.com",
@@ -383,9 +384,15 @@
       "kiviads.com",
       "businessinsider.com",
       "blasttv.ph",
-      "wbd.com"
+      "wbd.com",
+      "helloyou.tv",
+      "odkmedia.net",
+      "ondemandkorea.com",
+      "cjenm.com",
+      "mman.kr",
+      "lionsgate.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://tablotv.com/app-ads.txt": {
     "name": "Tablo TV",
@@ -416,7 +423,7 @@
       "wurl.com",
       "elementaltv.io"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://charter.net/app-ads.txt": {
     "name": "Charter",
@@ -426,7 +433,7 @@
     "all_partners": [
       "spectrum.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://sling.com/app-ads.txt": {
     "name": "Sling",
@@ -434,6 +441,7 @@
     "ok": true,
     "has_amc": true,
     "all_partners": [
+      "nuba.io",
       "videoelephant.com",
       "fuse.tv",
       "navio.tv",
@@ -520,7 +528,7 @@
       "scripps.com",
       "nbc.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://spectrum.net/app-ads.txt": {
     "name": "Spectrum",
@@ -530,7 +538,7 @@
     "all_partners": [
       "spectrum.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://adplatforms.paramount.com/app-ads.txt": {
     "name": "Paramount Ad Platform",
@@ -581,6 +589,7 @@
       "localnow.com",
       "nbc.com",
       "news12.com",
+      "newsmax.com",
       "newsy.com",
       "nglcollective.com",
       "openglass.tv",
@@ -637,7 +646,7 @@
       "voisetech.com",
       "xapads.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://www.xfinity.com/app-ads.txt": {
     "name": "Xfinity",
@@ -669,7 +678,7 @@
       "xumo.com",
       "roku.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://www.tcl.com/ads.txt": {
     "name": "TCL",
@@ -681,18 +690,21 @@
       "wesdreamer.homes",
       "awg.la",
       "fuse.tv",
+      "tyt.com",
       "ionic.tv",
       "vix.com",
       "viu.com",
       "zylo.net",
       "okast.tv",
       "laff.com",
+      "sbgi.net",
       "qwest.tv",
       "distro.tv",
       "viznet.tv",
       "xite.com",
       "chili.com",
       "canela.tv",
+      "mman.kr",
       "amc.com",
       "wurl.com",
       "tripleb.tv",
@@ -716,6 +728,7 @@
       "gustotv.com",
       "vidillion.com",
       "mtrspt1.com",
+      "tv9hindi.com",
       "its-newid.net",
       "thairath.co.th",
       "brintv.com.br",
@@ -723,12 +736,16 @@
       "nexostudios.it",
       "rotanarms.net",
       "ionplustv.com",
+      "studiotf1.com",
       "watch.viu.com",
       "bouncetv.com",
       "imagentv.com",
       "fremantle.com",
       "cineverse.com",
       "funkedigital.de",
+      "sportsgrid.com",
+      "tcncountry.com",
+      "magellantv.com",
       "paramount.com",
       "foxweather.com",
       "ionmystery.com",
@@ -741,13 +758,18 @@
       "rmcbfm-ads.com",
       "iontelevision.com",
       "banijayrights.com",
+      "jovempan.com.br",
       "darkmattertv.com",
-      "prismriotads.com",
       "worldpokertour.tv",
+      "prismriotads.com",
+      "blueantmedia.com",
+      "republicworld.com",
       "familyhandyman.tv",
       "lovetvchannels.com",
       "littledotstudios.com",
       "americasvoice.news",
+      "tvaparecida.com.br",
+      "worldpokertour.com",
       "weathernationtv.com",
       "ondemandkorea.com",
       "spanglishmovies.com",
@@ -788,7 +810,7 @@
       "questarentertainment.com",
       "video.blackgoldmediapartners.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://www.sling.com/ads.txt": {
     "name": "Sling",
@@ -796,6 +818,7 @@
     "ok": true,
     "has_amc": true,
     "all_partners": [
+      "nuba.io",
       "videoelephant.com",
       "fuse.tv",
       "navio.tv",
@@ -882,7 +905,7 @@
       "scripps.com",
       "nbc.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://plex.tv/ads.txt": {
     "name": "Plex",
@@ -1044,7 +1067,7 @@
       "qwest.tv",
       "nuba.io"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://ad.platform.vizio.com/ads.txt": {
     "name": "Vizio Ad Platform",
@@ -1161,9 +1184,10 @@
       "latinxctv.com",
       "spanglishmovies.com",
       "news12.com",
-      "tripleb.tv"
+      "tripleb.tv",
+      "racer.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   },
   "https://prd.pluto.tv/app-ads.txt": {
     "name": "Pluto TV",
@@ -1208,6 +1232,6 @@
       "wurl.com",
       "iontelevision.com"
     ],
-    "checked_at": "2026-10-01 16:55 UTC"
+    "checked_at": "2026-11-01 16:38 UTC"
   }
 }
