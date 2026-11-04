@@ -2884,6 +2884,11 @@
       ],
       "removed": [],
       "lines": 1549
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
+      "lines": 1549
     }
   ],
   "amc.com/app-ads.txt": [
@@ -5757,6 +5762,11 @@
         }
       ],
       "removed": [],
+      "lines": 1469
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
       "lines": 1469
     }
   ],
@@ -8645,6 +8655,11 @@
       ],
       "removed": [],
       "lines": 1549
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
+      "lines": 1549
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -11518,6 +11533,11 @@
         }
       ],
       "removed": [],
+      "lines": 1469
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
       "lines": 1469
     }
   ],
@@ -14406,6 +14426,11 @@
       ],
       "removed": [],
       "lines": 1549
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
+      "lines": 1549
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -17279,6 +17304,11 @@
         }
       ],
       "removed": [],
+      "lines": 1469
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
       "lines": 1469
     }
   ],
@@ -20166,6 +20196,11 @@
         }
       ],
       "removed": [],
+      "lines": 1549
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
       "lines": 1549
     }
   ],
@@ -23110,6 +23145,23 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.f482ab704c2f9ddc0522.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/14484.33bc644c5e5ce1d5190a.js\"></script><script defer=\"defer\" src=\"/code/js/63288.6d48eb83dfe9f51e1304.js\"></script><script defer=\"defer\" src=\"/code/js/47775.fec4ce7a3203d8b66eb1.js\"></script><script defer=\"defer\" src=\"/code/js/14524.fb6b3be50bbf9818c4ce.js\"></script><script defer=\"defer\" src=\"/code/js/app.2ba1a413e23ece012a10.js\"></script><link href=\"/style/css/14484.215e5ab22afddf72d7ed.css\" rel=\"stylesheet\"><link href=\"/style/css/14524.545274e6f4375e38ed1a.css\" rel=\"stylesheet\"><link href=\"/style/css/app.d2d8ccce0777cc5513b8.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.f482ab704c2f9ddc0522.js\"></script><script defer=\"defer\" src=\"/code/js/moment.840222d93e1c68b22ee6.js\"></script><script defer=\"defer\" src=\"/code/js/95022.21b47155fc1a14ba92cc.js\"></script><script defer=\"defer\" src=\"/code/js/63288.6d48eb83dfe9f51e1304.js\"></script><script defer=\"defer\" src=\"/code/js/47775.fec4ce7a3203d8b66eb1.js\"></script><script defer=\"defer\" src=\"/code/js/14524.ae6deac5cdf7a3cfcd5f.js\"></script><script defer=\"defer\" src=\"/code/js/app.a2e037beac85afd93da8.js\"></script><link href=\"/style/css/95022.1f2d0cda2a4ec5b2bd09.css\" rel=\"stylesheet\"><link href=\"/style/css/14524.bf975d0d5078f38f1975.css\" rel=\"stylesheet\"><link href=\"/style/css/app.c8954be99100f0aac365.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -25997,6 +26049,11 @@
       ],
       "removed": [],
       "lines": 1549
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
+      "lines": 1549
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -28870,6 +28927,11 @@
         }
       ],
       "removed": [],
+      "lines": 1469
+    },
+    {
+      "date": "2026-11-04 16:54 UTC",
+      "status": "unchanged",
       "lines": 1469
     }
   ]
