@@ -2989,6 +2989,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1549
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1563
     }
   ],
   "amc.com/app-ads.txt": [
@@ -5968,6 +6020,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1469
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1483
     }
   ],
   "bbca.com/ads.txt": [
@@ -8960,6 +9064,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1549
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1563
     }
   ],
   "bbca.com/app-ads.txt": [
@@ -11939,6 +12095,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1469
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1483
     }
   ],
   "ifc.com/ads.txt": [
@@ -14931,6 +15139,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1549
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1563
     }
   ],
   "ifc.com/app-ads.txt": [
@@ -17910,6 +18170,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1469
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1483
     }
   ],
   "sundancetv.com/ads.txt": [
@@ -20902,6 +21214,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1549
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1563
     }
   ],
   "sundancetv.com/app-ads.txt": [
@@ -24154,6 +24518,23 @@
         }
       ],
       "lines": 24
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.4735f253d9dcad687318.js\"></script><script defer=\"defer\" src=\"/code/js/moment.ddec33dd6e7eb581498b.js\"></script><script defer=\"defer\" src=\"/code/js/7622.0758a35e633bee5003bf.js\"></script><script defer=\"defer\" src=\"/code/js/63288.f100df79c20350ac98cf.js\"></script><script defer=\"defer\" src=\"/code/js/58941.0a7d3412e3d3f87b4a10.js\"></script><script defer=\"defer\" src=\"/code/js/37093.85816db008ce3ffcd276.js\"></script><script defer=\"defer\" src=\"/code/js/21350.19d5e00735655496c7d8.js\"></script><script defer=\"defer\" src=\"/code/js/62818.b04618a0f6704ba3f54c.js\"></script><script defer=\"defer\" src=\"/code/js/app.24d2b44f6442c94735ea.js\"></script><link href=\"/style/css/58941.f371cd09a8ec0160a369.css\" rel=\"stylesheet\"><link href=\"/style/css/62818.6d3f5e77732638de6974.css\" rel=\"stylesheet\"><link href=\"/style/css/app.4f3b4425962d6feb08a0.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "removed": [
+        {
+          "line": "}</script><script defer=\"defer\" src=\"/code/js/react-router.4735f253d9dcad687318.js\"></script><script defer=\"defer\" src=\"/code/js/moment.ddec33dd6e7eb581498b.js\"></script><script defer=\"defer\" src=\"/code/js/7622.0758a35e633bee5003bf.js\"></script><script defer=\"defer\" src=\"/code/js/63288.f100df79c20350ac98cf.js\"></script><script defer=\"defer\" src=\"/code/js/58941.0a7d3412e3d3f87b4a10.js\"></script><script defer=\"defer\" src=\"/code/js/37093.85816db008ce3ffcd276.js\"></script><script defer=\"defer\" src=\"/code/js/21350.19d5e00735655496c7d8.js\"></script><script defer=\"defer\" src=\"/code/js/62818.e3879708b7711c1bd87e.js\"></script><script defer=\"defer\" src=\"/code/js/app.419d57d42bd0cddb23a3.js\"></script><link href=\"/style/css/58941.f371cd09a8ec0160a369.css\" rel=\"stylesheet\"><link href=\"/style/css/62818.6d3f5e77732638de6974.css\" rel=\"stylesheet\"><link href=\"/style/css/app.4f3b4425962d6feb08a0.css\" rel=\"stylesheet\"></head><body class=\"resident-background-color\"><!--[if lt IE 9]>",
+          "section": "(no section)"
+        }
+      ],
+      "lines": 24
     }
   ],
   "wetv.com/ads.txt": [
@@ -27146,6 +27527,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1549
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1563
     }
   ],
   "wetv.com/app-ads.txt": [
@@ -30125,6 +30558,58 @@
       "date": "2026-11-24 19:59 UTC",
       "status": "unchanged",
       "lines": 1469
+    },
+    {
+      "date": "2026-11-25 18:59 UTC",
+      "status": "changed",
+      "added": [
+        {
+          "line": "voisetech.com, 1477, DIRECT, 9009ef0379162448",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "pubmatic.com, 165116, RESELLER, 5d62403b186f2ace",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-524565, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "freewheel.tv, 534998-r-523319, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "xandr.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "appnexus.com, 17779, RESELLER",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "triplelift.com, 14818, RESELLER, 6c33edb13117fd86",
+          "section": "#VoiseTech"
+        },
+        {
+          "line": "firstimpression.io, 3824, DIRECT",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "google.com, pub-8828745213386627, RESELLER, f08c47fec0942fa0",
+          "section": "#Adipolo"
+        },
+        {
+          "line": "leapmediagroup.net, 100053, DIRECT",
+          "section": "#LeapMedia"
+        }
+      ],
+      "removed": [],
+      "lines": 1483
     }
   ]
 }
